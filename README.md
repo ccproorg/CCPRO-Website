@@ -44,4 +44,4 @@ quarto render
 - [ ] Upload organizational documents (bylaws, minutes, reports) and link them from `documents.qmd`
 - [ ] Embed a job posting form (Google Form / Microsoft Form) on the Post A Job page
 - [ ] Set up deployment via GitHub Actions + Netlify (or similar hosting provider)
-- [ ] Add a `.gitignore` for `_site/` and `.quarto/`
+- [x] Add a `.gitignore` for `_site/` and `.quarto/`
