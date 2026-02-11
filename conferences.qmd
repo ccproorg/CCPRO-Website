@@ -1,0 +1,33 @@
+---
+title: "Conferences & Meetings"
+toc: true
+---
+
+## Upcoming Events
+
+::: {.callout-tip title="Next Conference"}
+
+**CCPRO Annual Conference**
+
+- **Date:** *TBD*
+- **Location:** *TBD*
+- **Theme:** *TBD*
+- **Registration:** [Register here](#) <!-- Replace with registration link -->
+
+:::
+
+<!-- Add additional upcoming events as needed -->
+
+## Past Conferences
+
+| Year | Event | Location | Theme |
+|------|-------|----------|-------|
+| 2025 | Annual Conference | *TBD* | *TBD* |
+| 2024 | Annual Conference | *TBD* | *TBD* |
+| 2023 | Annual Conference | *TBD* | *TBD* |
+
+<!-- Update with actual past conference details -->
+
+## Meeting Minutes
+
+Meeting minutes from CCPRO business meetings are available on the [Documents](documents.qmd) page.

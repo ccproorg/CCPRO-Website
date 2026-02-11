@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: "CCPRO"
+  description: "Community College Planning and Research Organization"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: officers.qmd
+        text: Officers
+      - href: conferences.qmd
+        text: Conferences/Meetings
+      - href: documents.qmd
+        text: Documents
+      - href: resources.qmd
+        text: Resources
+      - href: post-a-job.qmd
+        text: Post A Job
+  page-footer:
+    center: "© CCPRO – Community College Planning and Research Organization"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true

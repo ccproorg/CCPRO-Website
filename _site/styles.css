@@ -1,0 +1,39 @@
+/* CCPRO Custom Styles */
+
+/* Page content spacing */
+.content {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+table th {
+  text-align: left;
+  font-weight: 700;
+}
+
+table td,
+table th {
+  padding: 0.5rem 0.75rem;
+}
+
+/* Footer styling */
+.nav-footer {
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+
+/* Callout spacing */
+.callout {
+  margin-bottom: 1.5rem;
+}
+
+/* Resource list styling */
+.content ul li {
+  margin-bottom: 0.35rem;
+}

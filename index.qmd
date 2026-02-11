@@ -1,0 +1,27 @@
+---
+title: "Community College Planning and Research Organization"
+toc: true
+---
+
+## Welcome
+
+Welcome to the Community College Planning and Research Organization (CCPRO). We are a professional organization dedicated to supporting institutional research, institutional effectiveness, and assessment professionals across North Carolina's community college system.
+
+## Who We Are
+
+CCPRO is composed of institutional research and institutional effectiveness professionals serving North Carolina's 58 community colleges. Our members work across a broad range of areas including data reporting, strategic planning, accreditation support, student outcomes assessment, and institutional improvement.
+
+<!-- Replace with specific details about CCPRO's history and membership -->
+
+## What We Do
+
+- **Professional Development** — We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.
+- **Networking** — We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.
+- **Resource Sharing** — We curate and distribute tools, templates, and guidance relevant to community college research and assessment.
+- **Advocacy** — We advocate for the role of institutional research in data-informed decision making at community colleges.
+
+<!-- Replace with specific CCPRO initiatives and activities -->
+
+## Get Involved
+
+Interested in joining CCPRO or learning more? Visit our [Officers](officers.qmd) page for contact information or check out upcoming [Conferences & Meetings](conferences.qmd).

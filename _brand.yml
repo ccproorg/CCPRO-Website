@@ -1,0 +1,34 @@
+# CCPRO Brand Configuration
+# Replace placeholder values with official branding when available
+
+meta:
+  name: "CCPRO"
+  link: "#"  # Replace with live site URL
+
+color:
+  palette:
+    blue: "#1a5276"
+    light-blue: "#2e86c1"
+    dark: "#2c3e50"
+    light: "#f8f9fa"
+    accent: "#e74c3c"
+    white: "#ffffff"
+  primary: blue
+  secondary: light-blue
+  foreground: dark
+  background: white
+
+typography:
+  base:
+    family: "Open Sans, sans-serif"
+    size: 1rem
+  headings:
+    family: "Open Sans, sans-serif"
+    weight: 700
+  monospace:
+    family: "Fira Code, monospace"
+
+logo:
+  small: images/logo.png   # Add logo file when available
+  # medium: images/logo-medium.png
+  # large: images/logo-large.png

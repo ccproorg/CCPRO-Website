@@ -1,0 +1,42 @@
+---
+title: "Officers"
+toc: true
+---
+
+## Current Officers
+
+| Role | Name | Institution | Email |
+|------|------|-------------|-------|
+| President | *TBD* | *TBD* | *TBD* |
+| Vice President | *TBD* | *TBD* | *TBD* |
+| Secretary | *TBD* | *TBD* | *TBD* |
+| Treasurer | *TBD* | *TBD* | *TBD* |
+| Past President | *TBD* | *TBD* | *TBD* |
+
+<!-- Update with current officer information -->
+
+## Past Officers
+
+::: {.callout-note collapse="true" title="2024-2025 Officers"}
+
+| Role | Name | Institution |
+|------|------|-------------|
+| President | *TBD* | *TBD* |
+| Vice President | *TBD* | *TBD* |
+| Secretary | *TBD* | *TBD* |
+| Treasurer | *TBD* | *TBD* |
+
+:::
+
+::: {.callout-note collapse="true" title="2023-2024 Officers"}
+
+| Role | Name | Institution |
+|------|------|-------------|
+| President | *TBD* | *TBD* |
+| Vice President | *TBD* | *TBD* |
+| Secretary | *TBD* | *TBD* |
+| Treasurer | *TBD* | *TBD* |
+
+:::
+
+<!-- Add additional years as collapsible sections following the pattern above -->

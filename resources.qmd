@@ -1,0 +1,48 @@
+---
+title: "Resources"
+toc: true
+---
+
+A curated collection of resources for Institutional Research and Assessment professionals at North Carolina community colleges.
+
+## Federal & National Resources
+
+- [IPEDS - Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/)
+- [NCES - National Center for Education Statistics](https://nces.ed.gov/)
+- [College Scorecard](https://collegescorecard.ed.gov/)
+- [College Navigator](https://nces.ed.gov/collegenavigator/)
+- [AACC - American Association of Community Colleges](https://www.aacc.nche.edu/)
+
+## State Resources
+
+- [NCCCS - North Carolina Community College System](https://www.nccommunitycolleges.edu/)
+- [myFutureNC](https://www.myfuturenc.org/)
+- [NC Tower - NC Workforce Data](https://nctower.com/)
+- [UNC System Data Dashboard](https://www.northcarolina.edu/impact/stats-data-reports/)
+
+## Professional Organizations
+
+- [AIR - Association for Institutional Research](https://www.airweb.org/)
+- [SAIR - Southern Association for Institutional Research](https://www.sairinstitutionalresearch.org/)
+- [NCAIR - North Carolina Association for Institutional Research](https://www.ncair.org/)
+- [AALHE - Association for the Assessment of Learning in Higher Education](https://www.aalhe.org/)
+
+## Accreditation
+
+- [SACSCOC - Southern Association of Colleges and Schools Commission on Colleges](https://www.sacscoc.org/)
+
+## Data Tools & Software
+
+- [R Project for Statistical Computing](https://www.r-project.org/)
+- [Python](https://www.python.org/)
+- [Posit (RStudio / Quarto)](https://posit.co/)
+- [Tableau](https://www.tableau.com/)
+- [Power BI](https://powerbi.microsoft.com/)
+
+## Professional Development
+
+- [AIR Webinars and eCourses](https://www.airweb.org/collaborate-learn)
+- [Coursera - Data Science Courses](https://www.coursera.org/)
+- [IPEDS Training Resources](https://nces.ed.gov/ipeds/use-the-data/survey-components)
+
+<!-- Add or update links as needed -->
