@@ -1,143 +1,94 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
+    "objectID": "pages/resources.html",
+    "href": "pages/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "A curated collection of resources for Institutional Research and Assessment professionals at North Carolina community colleges."
+    "text": "A curated collection of resources for Institutional Research and Assessment professionals at North Carolina community colleges.\nIf you want to contribute a resource, please contact the CCPRO Webmaster to have it added to the list."
   },
   {
-    "objectID": "resources.html#federal-national-resources",
-    "href": "resources.html#federal-national-resources",
+    "objectID": "pages/resources.html#federal-national-resources",
+    "href": "pages/resources.html#federal-national-resources",
     "title": "Resources",
     "section": "Federal & National Resources",
     "text": "Federal & National Resources\n\nIPEDS - Integrated Postsecondary Education Data System\nNCES - National Center for Education Statistics\nCollege Scorecard\nCollege Navigator\nNSC - National Student Clearinghouse\nAACC - American Association of Community Colleges"
   },
   {
-    "objectID": "resources.html#state-resources",
-    "href": "resources.html#state-resources",
+    "objectID": "pages/resources.html#state-resources",
+    "href": "pages/resources.html#state-resources",
     "title": "Resources",
     "section": "State Resources",
     "text": "State Resources\n\nNCCCS - North Carolina Community College System\nmyFutureNC\nNC Tower - NC Workforce Data\nUNC System Data Dashboard\nCFNC- College For North Carolina"
   },
   {
-    "objectID": "resources.html#professional-organizations",
-    "href": "resources.html#professional-organizations",
+    "objectID": "pages/resources.html#professional-organizations",
+    "href": "pages/resources.html#professional-organizations",
     "title": "Resources",
     "section": "Professional Organizations",
     "text": "Professional Organizations\n\nAIR - Association for Institutional Research\nSAIR - Southern Association for Institutional Research\nNCAIR - North Carolina Association for Institutional Research\nAALHE - Association for the Assessment of Learning in Higher Education"
   },
   {
-    "objectID": "resources.html#accreditation",
-    "href": "resources.html#accreditation",
+    "objectID": "pages/resources.html#accreditation",
+    "href": "pages/resources.html#accreditation",
     "title": "Resources",
     "section": "Accreditation",
     "text": "Accreditation\n\nSACSCOC - Southern Association of Colleges and Schools Commission on Colleges\nCHEA - Council for Higher Education Accreditation"
   },
   {
-    "objectID": "resources.html#data-tools-software",
-    "href": "resources.html#data-tools-software",
+    "objectID": "pages/resources.html#data-tools-software",
+    "href": "pages/resources.html#data-tools-software",
     "title": "Resources",
     "section": "Data Tools & Software",
     "text": "Data Tools & Software\n\nR Project for Statistical Computing\nRstudio, Positron, Quarto & Posit\nPython\nTableau\nPower BI"
   },
   {
-    "objectID": "resources.html#professional-development",
-    "href": "resources.html#professional-development",
+    "objectID": "pages/resources.html#professional-development",
+    "href": "pages/resources.html#professional-development",
     "title": "Resources",
     "section": "Professional Development",
     "text": "Professional Development\n\nAIR Webinars and eCourses\nCoursera - Data Science Courses\nDataCamp - Data Science & Analytics Training\nIPEDS Training Resources"
   },
   {
-    "objectID": "officers.html",
-    "href": "officers.html",
-    "title": "Officers",
+    "objectID": "pages/membership-directory.html",
+    "href": "pages/membership-directory.html",
+    "title": "Membership Directory",
     "section": "",
-    "text": "Role\nName\nInstitution\nEmail\n\n\n\n\nPresident\nMeghan Nevil\nIsothermal Community College\nmnevil@isothermal.edu\n\n\nPresident-Elect\nBritney L Shawley\nDirector of Assessment, Research, and Evaluation\nblshawley@johnstoncc.edu\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nLogan King\nHaywood Community College\nrking3387@haywood.edu\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD"
+    "text": "Utilize the table below to find contact information for CCPRO members. The directory is updated quarterly, so please check back for the most current information.\nTo sign up for the directory, please contact the CCPRO Webmaster to be added to the list. The directory is intended for use by CCPRO members only."
   },
   {
-    "objectID": "officers.html#current-officers",
-    "href": "officers.html#current-officers",
-    "title": "Officers",
-    "section": "",
-    "text": "Role\nName\nInstitution\nEmail\n\n\n\n\nPresident\nMeghan Nevil\nIsothermal Community College\nmnevil@isothermal.edu\n\n\nPresident-Elect\nBritney L Shawley\nDirector of Assessment, Research, and Evaluation\nblshawley@johnstoncc.edu\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nLogan King\nHaywood Community College\nrking3387@haywood.edu\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "officers.html#past-officers",
-    "href": "officers.html#past-officers",
-    "title": "Officers",
-    "section": "Past Officers",
-    "text": "Past Officers\n\n\n\n\n\n\nNote2024-2025 Officers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRole\nName\nInstitution\nEmail\n\n\n\n\nPresident\nTBD\nTBD\nTBD\n\n\nPresident-Elect\nTBD\nTBD\nTBD\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nTBD\nTBD\nTBD\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\nNote2023-2024 Officers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRole\nName\nInstitution\nEmail\n\n\n\n\nPresident\nTBD\nTBD\nTBD\n\n\nPresident-Elect\nTBD\nTBD\nTBD\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nTBD\nTBD\nTBD\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD"
-  },
-  {
-    "objectID": "documents.html",
-    "href": "documents.html",
+    "objectID": "pages/documents.html",
+    "href": "pages/documents.html",
     "title": "Documents",
     "section": "",
     "text": "This page serves as the organizational document repository for CCPRO. Documents are organized by category below."
   },
   {
-    "objectID": "documents.html#bylaws",
-    "href": "documents.html#bylaws",
+    "objectID": "pages/documents.html#bylaws",
+    "href": "pages/documents.html#bylaws",
     "title": "Documents",
     "section": "Bylaws",
     "text": "Bylaws\n\nCCPRO Bylaws"
   },
   {
-    "objectID": "documents.html#meeting-minutes",
-    "href": "documents.html#meeting-minutes",
+    "objectID": "pages/documents.html#meeting-minutes",
+    "href": "pages/documents.html#meeting-minutes",
     "title": "Documents",
     "section": "Meeting Minutes",
     "text": "Meeting Minutes\n\nSpring 2025 Business Meeting Minutes \nFall 2024 Business Meeting Minutes"
   },
   {
-    "objectID": "documents.html#annual-reports",
-    "href": "documents.html#annual-reports",
+    "objectID": "pages/documents.html#annual-reports",
+    "href": "pages/documents.html#annual-reports",
     "title": "Documents",
     "section": "Annual Reports",
     "text": "Annual Reports\n\n2024-2025 Annual Report \n2023-2024 Annual Report"
   },
   {
-    "objectID": "documents.html#other-documents",
-    "href": "documents.html#other-documents",
+    "objectID": "pages/documents.html#other-documents",
+    "href": "pages/documents.html#other-documents",
     "title": "Documents",
     "section": "Other Documents",
     "text": "Other Documents\n\nStrategic Plan \nMembership Directory"
-  },
-  {
-    "objectID": "conferences.html",
-    "href": "conferences.html",
-    "title": "Conferences & Meetings",
-    "section": "",
-    "text": "TipNext Conference\n\n\n\nCCPRO Annual Conference\n\nDate: TBD\nLocation: TBD\nTheme: TBD\nRegistration: Register here"
-  },
-  {
-    "objectID": "conferences.html#upcoming-events",
-    "href": "conferences.html#upcoming-events",
-    "title": "Conferences & Meetings",
-    "section": "",
-    "text": "TipNext Conference\n\n\n\nCCPRO Annual Conference\n\nDate: TBD\nLocation: TBD\nTheme: TBD\nRegistration: Register here"
-  },
-  {
-    "objectID": "conferences.html#past-conferences",
-    "href": "conferences.html#past-conferences",
-    "title": "Conferences & Meetings",
-    "section": "Past Conferences",
-    "text": "Past Conferences\n\n\n\nYear\nEvent\nLocation\nTheme\n\n\n\n\n2025\nAnnual Conference\nTBD\nTBD\n\n\n2024\nAnnual Conference\nTBD\nTBD\n\n\n2023\nAnnual Conference\nTBD\nTBD"
-  },
-  {
-    "objectID": "conferences.html#meeting-minutes",
-    "href": "conferences.html#meeting-minutes",
-    "title": "Conferences & Meetings",
-    "section": "Meeting Minutes",
-    "text": "Meeting Minutes\nMeeting minutes from CCPRO business meetings are available on the Documents page."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Community College Planning and Research Organization",
-    "section": "",
-    "text": "Welcome to the Community College Planning and Research Organization (CCPRO). We are a professional organization dedicated to supporting institutional research, institutional effectiveness, and assessment professionals across North Carolina’s community college system."
   },
   {
     "objectID": "index.html#welcome",
@@ -168,52 +119,73 @@
     "text": "Get Involved\nInterested in joining CCPRO or learning more? Visit our Officers page for contact information or check out upcoming Conferences & Meetings."
   },
   {
-    "objectID": "post-a-job.html",
-    "href": "post-a-job.html",
+    "objectID": "pages/conferences.html",
+    "href": "pages/conferences.html",
+    "title": "Conferences & Meetings",
+    "section": "",
+    "text": "TipNext Conference\n\n\n\nCCPRO Annual Conference\n\nDate: TBD\nLocation: TBD\nTheme: TBD\nRegistration: Register here"
+  },
+  {
+    "objectID": "pages/conferences.html#upcoming-events",
+    "href": "pages/conferences.html#upcoming-events",
+    "title": "Conferences & Meetings",
+    "section": "",
+    "text": "TipNext Conference\n\n\n\nCCPRO Annual Conference\n\nDate: TBD\nLocation: TBD\nTheme: TBD\nRegistration: Register here"
+  },
+  {
+    "objectID": "pages/conferences.html#past-conferences",
+    "href": "pages/conferences.html#past-conferences",
+    "title": "Conferences & Meetings",
+    "section": "Past Conferences",
+    "text": "Past Conferences\n\n\n\nYear\nEvent\nLocation\nTheme\n\n\n\n\n2025\nAnnual Conference\nTBD\nTBD\n\n\n2024\nAnnual Conference\nTBD\nTBD\n\n\n2023\nAnnual Conference\nTBD\nTBD"
+  },
+  {
+    "objectID": "pages/conferences.html#meeting-minutes",
+    "href": "pages/conferences.html#meeting-minutes",
+    "title": "Conferences & Meetings",
+    "section": "Meeting Minutes",
+    "text": "Meeting Minutes\nMeeting minutes from CCPRO business meetings are available on the Documents page."
+  },
+  {
+    "objectID": "pages/job-postings.html",
+    "href": "pages/job-postings.html",
     "title": "Job Postings",
     "section": "",
     "text": "Share community college Institutional Research and Institutional Effectiveness job opportunities with CCPRO members."
   },
   {
-    "objectID": "post-a-job.html#submit-a-job-posting",
-    "href": "post-a-job.html#submit-a-job-posting",
-    "title": "Job Postings",
-    "section": "Submit a Job Posting",
-    "text": "Submit a Job Posting\nUse the form below to submit a job opening for distribution to CCPRO members.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe job posting form is coming soon. In the meantime, please contact a CCPRO officer to submit a job posting."
-  },
-  {
-    "objectID": "post-a-job.html#current-openings",
-    "href": "post-a-job.html#current-openings",
-    "title": "Job Postings",
-    "section": "Current Openings",
-    "text": "Current Openings\n\n\n\nPosition\nInstitution\nDate Posted\nLink\n\n\n\n\nNo current openings\n-\n-\n-"
-  },
-  {
-    "objectID": "job-postings.html",
-    "href": "job-postings.html",
-    "title": "Job Postings",
-    "section": "",
-    "text": "Share community college Institutional Research and Institutional Effectiveness job opportunities with CCPRO members."
-  },
-  {
-    "objectID": "job-postings.html#submit-a-job-posting",
-    "href": "job-postings.html#submit-a-job-posting",
+    "objectID": "pages/job-postings.html#submit-a-job-posting",
+    "href": "pages/job-postings.html#submit-a-job-posting",
     "title": "Job Postings",
     "section": "Submit a Job Posting",
     "text": "Submit a Job Posting\nUse the form below to submit a job opening for distribution to CCPRO members.\nCCPRO Job Posting Link"
   },
   {
-    "objectID": "job-postings.html#current-openings",
-    "href": "job-postings.html#current-openings",
+    "objectID": "pages/job-postings.html#current-openings",
+    "href": "pages/job-postings.html#current-openings",
     "title": "Job Postings",
     "section": "Current Openings",
     "text": "Current Openings\n\n\n\nPosition\nInstitution\nDate Posted\nLink\nApplication Deadline\n\n\n\n\nNo current openings\n-\n-\n-\n-"
   },
   {
-    "objectID": "membership-directory.html",
-    "href": "membership-directory.html",
-    "title": "Membership Directory",
+    "objectID": "pages/officers.html",
+    "href": "pages/officers.html",
+    "title": "Officers",
     "section": "",
-    "text": "Utilize the table below to find contact information for CCPRO members. The directory is updated quarterly, so please check back for the most current information.\nTo sign up for the directory, please contact the CCPRO Webmaster to be added to the list. The directory is intended for use by CCPRO members only."
+    "text": "Role\nName\nInstitution\nEmail\n\n\n\n\nPresident\nMeghan Nevil\nIsothermal Community College\nmnevil@isothermal.edu\n\n\nPresident-Elect\nBritney L Shawley\nDirector of Assessment, Research, and Evaluation\nblshawley@johnstoncc.edu\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nLogan King\nHaywood Community College\nrking3387@haywood.edu\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD"
+  },
+  {
+    "objectID": "pages/officers.html#current-officers",
+    "href": "pages/officers.html#current-officers",
+    "title": "Officers",
+    "section": "",
+    "text": "Role\nName\nInstitution\nEmail\n\n\n\n\nPresident\nMeghan Nevil\nIsothermal Community College\nmnevil@isothermal.edu\n\n\nPresident-Elect\nBritney L Shawley\nDirector of Assessment, Research, and Evaluation\nblshawley@johnstoncc.edu\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nLogan King\nHaywood Community College\nrking3387@haywood.edu\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD"
+  },
+  {
+    "objectID": "pages/officers.html#past-officers",
+    "href": "pages/officers.html#past-officers",
+    "title": "Officers",
+    "section": "Past Officers",
+    "text": "Past Officers\n\n\n\n\n\n\nNote2024-2025 Officers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRole\nName\nInstitution\nEmail\n\n\n\n\nPresident\nTBD\nTBD\nTBD\n\n\nPresident-Elect\nTBD\nTBD\nTBD\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nTBD\nTBD\nTBD\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD\n\n\n\n\n\n\n\n\n\n\n\n\nNote2023-2024 Officers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRole\nName\nInstitution\nEmail\n\n\n\n\nPresident\nTBD\nTBD\nTBD\n\n\nPresident-Elect\nTBD\nTBD\nTBD\n\n\nPast President\nTBD\nTBD\nTBD\n\n\nSecretary\nTBD\nTBD\nTBD\n\n\nTreasurer\nTBD\nTBD\nTBD\n\n\nEastern Region Director\nTBD\nTBD\nTBD\n\n\nCentral Region Director\nTBD\nTBD\nTBD\n\n\nWestern Region Director\nTBD\nTBD\nTBD\n\n\nAt-Large Director\nTBD\nTBD\nTBD\n\n\nWebmaster\nTBD\nTBD\nTBD\n\n\nHistorian\nTBD\nTBD\nTBD\n\n\nLiason from the NC Association of Community Colleges Presidents\nTBD\nTBD\nTBD"
   }
 ]

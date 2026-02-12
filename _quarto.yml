@@ -4,24 +4,25 @@ project:
 website:
   title: ""
   description: "Community College Planning and Research Organization"
-  favicon: "images/CCPRO - transparent background.png"
+  favicon: "images/ccpro-transparent-background.png"
   navbar:
     background: primary
-    logo: "images/CCPRO - White NC - Transparent Background.png"
+    logo: "images/ccpro-white-nc-transparent-background.png"
+    logo-href: "/"
     left:
       - href: index.qmd
         text: Home
-      - href: officers.qmd
+      - href: pages/officers.qmd
         text: Officers
-      - href: membership-directory.qmd
+      - href: pages/membership-directory.qmd
         text: Membership Directory
-      - href: conferences.qmd
+      - href: pages/conferences.qmd
         text: Conferences/Meetings
-      - href: documents.qmd
+      - href: pages/documents.qmd
         text: Documents
-      - href: resources.qmd
+      - href: pages/resources.qmd
         text: Resources
-      - href: job-postings.qmd
+      - href: pages/job-postings.qmd
         text: Job Postings
 
   page-footer:

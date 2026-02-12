@@ -3,7 +3,7 @@ title: "Community College Planning and Research Organization"
 toc: true
 ---
 
-![](images/CCPRO Logo with Description.png){fig-align="center" width="400px"}
+![](images/ccpro-logo-with-desc.png){fig-align="center" width="400px"}
 
 ## Welcome
 
@@ -26,4 +26,4 @@ CCPRO is composed of institutional research and institutional effectiveness prof
 
 ## Get Involved
 
-Interested in joining CCPRO or learning more? Visit our [Officers](officers.qmd) page for contact information or check out upcoming [Conferences & Meetings](conferences.qmd).
+Interested in joining CCPRO or learning more? Visit our [Officers](pages/officers.qmd) page for contact information or check out upcoming [Conferences & Meetings](pages/conferences.qmd).

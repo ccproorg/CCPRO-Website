@@ -10,25 +10,26 @@ To sign up for the directory, please contact the [CCPRO Webmaster](officers.qmd)
 
 ```{r}
 #| label: libraries and data
-library(tidyverse)
-library(DT)
-library(readxl)
+library(tidyverse) # Load tidyverse for data manipulation
+library(DT) # Load DT for interactive tables
+library(readxl) # Load readxl for reading Excel files
 
 directory <- read_excel(
-  "documents/CCPRO_Directory_10312025.xlsx",
+  "../documents/CCPRO_Directory_10312025.xlsx",
   sheet = "CCPRO_Directory"
-) |>
+) |> # Read in the directory from Excel: CCPRO_Directory_10312025.xlsx Sheet: CCPRO_Directory
   mutate(
     college_website = str_remove(college_website, ",$")
-  )
+  ) # Clean up any trailing commas in the college_website column
 ```
 
 ```{r}
 #| label: directory table
 directory |>
   datatable(
-    options = list(pageLength = 10, autoWidth = TRUE),
-    rownames = FALSE,
+    # Create an interactive datatable using DT (HTML widget)
+    options = list(pageLength = 10, autoWidth = TRUE), # Set table length and auto width
+    rownames = FALSE, # Remove row names
     colnames = c(
       "Member Name",
       "Title",
@@ -40,6 +41,6 @@ directory |>
       "Email",
       "SACSCOC Liaison",
       "Excecutive Committee Member"
-    )
+    ) # Clean column names for display
   )
 ```

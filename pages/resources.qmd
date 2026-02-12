@@ -6,6 +6,8 @@ link-external-newwindow: true
 
 A curated collection of resources for Institutional Research and Assessment professionals at North Carolina community colleges.
 
+If you want to contribute a resource, please contact the [CCPRO Webmaster](officers.qmd) to have it added to the list.
+
 ## Federal & National Resources
 
 - [IPEDS - Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/)

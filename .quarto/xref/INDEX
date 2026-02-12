@@ -22,5 +22,26 @@
   },
   "membership-directory.qmd": {
     "membership-directory.html": "fcbbc8ad"
+  },
+  "pages/conferences.qmd": {
+    "conferences.html": "b33f1fc0"
+  },
+  "pages/documents.qmd": {
+    "documents.html": "df1bf1f1"
+  },
+  "pages/index.qmd": {
+    "index.html": "e1ce4ffe"
+  },
+  "pages/job-postings.qmd": {
+    "job-postings.html": "8c7931e0"
+  },
+  "pages/membership-directory.qmd": {
+    "membership-directory.html": "113214fb"
+  },
+  "pages/officers.qmd": {
+    "officers.html": "541ff3dc"
+  },
+  "pages/resources.qmd": {
+    "resources.html": "96388274"
   }
 }

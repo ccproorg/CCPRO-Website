@@ -7,7 +7,7 @@ This page serves as the organizational document repository for CCPRO. Documents 
 
 ## Bylaws
 
-- [CCPRO Bylaws](documents/CCPRO_Constitution_2019_final.pdf) 
+- [CCPRO Bylaws](../documents/CCPRO_Constitution_2019_final.pdf) 
 
 ## Meeting Minutes
 
