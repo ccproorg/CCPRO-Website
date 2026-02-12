@@ -1,6 +1,7 @@
 ---
 title: "Resources"
 toc: true
+link-external-newwindow: true
 ---
 
 A curated collection of resources for Institutional Research and Assessment professionals at North Carolina community colleges.
@@ -11,31 +12,34 @@ A curated collection of resources for Institutional Research and Assessment prof
 - [NCES - National Center for Education Statistics](https://nces.ed.gov/)
 - [College Scorecard](https://collegescorecard.ed.gov/)
 - [College Navigator](https://nces.ed.gov/collegenavigator/)
+- [NSC - National Student Clearinghouse](https://www.studentclearinghouse.org/)
 - [AACC - American Association of Community Colleges](https://www.aacc.nche.edu/)
 
 ## State Resources
 
 - [NCCCS - North Carolina Community College System](https://www.nccommunitycolleges.edu/)
 - [myFutureNC](https://www.myfuturenc.org/)
-- [NC Tower - NC Workforce Data](https://nctower.com/)
+- [NC Tower - NC Workforce Data](https://tower.nc.gov/)
 - [UNC System Data Dashboard](https://www.northcarolina.edu/impact/stats-data-reports/)
+- [CFNC- College For North Carolina](https://www.cfnc.org/)
 
 ## Professional Organizations
 
 - [AIR - Association for Institutional Research](https://www.airweb.org/)
-- [SAIR - Southern Association for Institutional Research](https://www.sairinstitutionalresearch.org/)
-- [NCAIR - North Carolina Association for Institutional Research](https://www.ncair.org/)
+- [SAIR - Southern Association for Institutional Research](https://www.sair.org/)
+- [NCAIR - North Carolina Association for Institutional Research](https://nc-air.org/)
 - [AALHE - Association for the Assessment of Learning in Higher Education](https://www.aalhe.org/)
 
 ## Accreditation
 
 - [SACSCOC - Southern Association of Colleges and Schools Commission on Colleges](https://www.sacscoc.org/)
+- [CHEA - Council for Higher Education Accreditation](https://www.chea.org/)
 
 ## Data Tools & Software
 
 - [R Project for Statistical Computing](https://www.r-project.org/)
+- [Rstudio, Positron, Quarto & Posit](https://posit.co/)
 - [Python](https://www.python.org/)
-- [Posit (RStudio / Quarto)](https://posit.co/)
 - [Tableau](https://www.tableau.com/)
 - [Power BI](https://powerbi.microsoft.com/)
 
@@ -43,6 +47,7 @@ A curated collection of resources for Institutional Research and Assessment prof
 
 - [AIR Webinars and eCourses](https://www.airweb.org/collaborate-learn)
 - [Coursera - Data Science Courses](https://www.coursera.org/)
-- [IPEDS Training Resources](https://nces.ed.gov/ipeds/use-the-data/survey-components)
+- [DataCamp - Data Science & Analytics Training](https://www.datacamp.com/)
+- [IPEDS Training Resources](https://ies.ed.gov/learn/events)
 
 <!-- Add or update links as needed -->

@@ -108,6 +108,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Officers</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./membership-directory.html"> 
+<span class="menu-text">Membership Directory</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./conferences.html"> 
 <span class="menu-text">Conferences/Meetings</span></a>
   </li>  
@@ -122,10 +126,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./job-postings.html"> 
 <span class="menu-text">Job Postings</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./membership-directory.html"> 
-<span class="menu-text">Membership Directory</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -182,6 +182,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://nces.ed.gov/">NCES - National Center for Education Statistics</a></li>
 <li><a href="https://collegescorecard.ed.gov/">College Scorecard</a></li>
 <li><a href="https://nces.ed.gov/collegenavigator/">College Navigator</a></li>
+<li><a href="https://www.studentclearinghouse.org/">NSC - National Student Clearinghouse</a></li>
 <li><a href="https://www.aacc.nche.edu/">AACC - American Association of Community Colleges</a></li>
 </ul>
 </section>
@@ -190,16 +191,17 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://www.nccommunitycolleges.edu/">NCCCS - North Carolina Community College System</a></li>
 <li><a href="https://www.myfuturenc.org/">myFutureNC</a></li>
-<li><a href="https://nctower.com/">NC Tower - NC Workforce Data</a></li>
+<li><a href="https://tower.nc.gov/">NC Tower - NC Workforce Data</a></li>
 <li><a href="https://www.northcarolina.edu/impact/stats-data-reports/">UNC System Data Dashboard</a></li>
+<li><a href="https://www.cfnc.org/">CFNC- College For North Carolina</a></li>
 </ul>
 </section>
 <section id="professional-organizations" class="level2">
 <h2 class="anchored" data-anchor-id="professional-organizations">Professional Organizations</h2>
 <ul>
 <li><a href="https://www.airweb.org/">AIR - Association for Institutional Research</a></li>
-<li><a href="https://www.sairinstitutionalresearch.org/">SAIR - Southern Association for Institutional Research</a></li>
-<li><a href="https://www.ncair.org/">NCAIR - North Carolina Association for Institutional Research</a></li>
+<li><a href="https://www.sair.org/">SAIR - Southern Association for Institutional Research</a></li>
+<li><a href="https://nc-air.org/">NCAIR - North Carolina Association for Institutional Research</a></li>
 <li><a href="https://www.aalhe.org/">AALHE - Association for the Assessment of Learning in Higher Education</a></li>
 </ul>
 </section>
@@ -207,14 +209,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="accreditation">Accreditation</h2>
 <ul>
 <li><a href="https://www.sacscoc.org/">SACSCOC - Southern Association of Colleges and Schools Commission on Colleges</a></li>
+<li><a href="https://www.chea.org/">CHEA - Council for Higher Education Accreditation</a></li>
 </ul>
 </section>
 <section id="data-tools-software" class="level2">
 <h2 class="anchored" data-anchor-id="data-tools-software">Data Tools &amp; Software</h2>
 <ul>
 <li><a href="https://www.r-project.org/">R Project for Statistical Computing</a></li>
+<li><a href="https://posit.co/">Rstudio, Positron, Quarto &amp; Posit</a></li>
 <li><a href="https://www.python.org/">Python</a></li>
-<li><a href="https://posit.co/">Posit (RStudio / Quarto)</a></li>
 <li><a href="https://www.tableau.com/">Tableau</a></li>
 <li><a href="https://powerbi.microsoft.com/">Power BI</a></li>
 </ul>
@@ -224,7 +227,8 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://www.airweb.org/collaborate-learn">AIR Webinars and eCourses</a></li>
 <li><a href="https://www.coursera.org/">Coursera - Data Science Courses</a></li>
-<li><a href="https://nces.ed.gov/ipeds/use-the-data/survey-components">IPEDS Training Resources</a></li>
+<li><a href="https://www.datacamp.com/">DataCamp - Data Science &amp; Analytics Training</a></li>
+<li><a href="https://ies.ed.gov/learn/events">IPEDS Training Resources</a></li>
 </ul>
 <!-- Add or update links as needed -->
 
@@ -319,6 +323,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -639,7 +648,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© CCPRO – Community College Planning and Research Organization</p>
+<p>CCPRO – Community College Planning and Research Organization</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
