@@ -3,6 +3,8 @@ title: "Community College Planning and Research Organization"
 toc: true
 ---
 
+![](images/CCPRO Logo with Description.png){fig-align="center" width="400px"}
+
 ## Welcome
 
 Welcome to the Community College Planning and Research Organization (CCPRO). We are a professional organization dedicated to supporting institutional research, institutional effectiveness, and assessment professionals across North Carolina's community college system.

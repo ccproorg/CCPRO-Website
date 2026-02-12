@@ -38,10 +38,10 @@ quarto render
 
 ## TODO
 
-- [ ] Add CCPRO logo and branding assets to `images/`
-- [ ] Update `_brand.yml` with official colors, fonts, and logo
+- [x] Add CCPRO logo and branding assets to `images/` (Need to actually apply the logo)
+- [x] Update `_brand.yml` with official colors, fonts, and logo
 - [ ] Populate officer, conference, and document content
 - [ ] Upload organizational documents (bylaws, minutes, reports) and link them from `documents.qmd`
-- [ ] Embed a job posting form (Google Form / Microsoft Form) on the Post A Job page
+- [x] Embed a job posting form (Google Form / Microsoft Form) on the Post A Job page (Currently in Webmaster's one drive, could add to ccpro onedrive)
 - [ ] Set up deployment via GitHub Actions + Netlify (or similar hosting provider)
 - [x] Add a `.gitignore` for `_site/` and `.quarto/`

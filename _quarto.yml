@@ -2,10 +2,12 @@ project:
   type: website
 
 website:
-  title: "CCPRO"
+  title: ""
   description: "Community College Planning and Research Organization"
+  favicon: "images/CCPRO - transparent background.png"
   navbar:
     background: primary
+    logo: "images/CCPRO - White NC - Transparent Background.png"
     left:
       - href: index.qmd
         text: Home

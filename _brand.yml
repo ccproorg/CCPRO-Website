@@ -29,6 +29,6 @@ typography:
     family: "Fira Code, monospace"
 
 logo:
-  small: images/CCPRO - NC.png   # Add logo file when available
-  # medium: images/logo-medium.png
-  # large: images/logo-large.png
+  small: images/CCPRO - NC .png
+  medium: images/CCPRO - transparent background.png
+  large: images/CCPRO Logo with Description.png
