@@ -7,11 +7,18 @@ toc: true
 
 | Role | Name | Institution | Email |
 |------|------|-------------|-------|
-| President | *TBD* | *TBD* | *TBD* |
-| Vice President | *TBD* | *TBD* | *TBD* |
+| President | Meghan Nevil | Isothermal Community College | mnevil@isothermal.edu |
+| President-Elect | Britney L Shawley | Director of Assessment, Research, and Evaluation| blshawley@johnstoncc.edu |
+| Past President | *TBD* | *TBD* | *TBD* |
 | Secretary | *TBD* | *TBD* | *TBD* |
 | Treasurer | *TBD* | *TBD* | *TBD* |
-| Past President | *TBD* | *TBD* | *TBD* |
+| Eastern Region Director | *TBD* | *TBD* | *TBD* |
+| Central Region Director | *TBD* | *TBD* | *TBD* |
+| Western Region Director | *TBD* | *TBD* | *TBD* |
+| At-Large Director | *TBD* | *TBD* | *TBD* |
+| Webmaster | Logan King | Haywood Community College | rking3387@haywood.edu |
+| Historian | *TBD* | *TBD* | *TBD* |
+| Liason from the NC Association of Community Colleges Presidents | *TBD* | *TBD* | *TBD* |
 
 <!-- Update with current officer information -->
 
@@ -19,23 +26,38 @@ toc: true
 
 ::: {.callout-note collapse="true" title="2024-2025 Officers"}
 
-| Role | Name | Institution |
-|------|------|-------------|
-| President | *TBD* | *TBD* |
-| Vice President | *TBD* | *TBD* |
-| Secretary | *TBD* | *TBD* |
-| Treasurer | *TBD* | *TBD* |
-
+| Role | Name | Institution | Email |
+|------|------|-------------|-------|
+| President | *TBD* | *TBD* | *TBD* |
+| President-Elect | *TBD* | *TBD* | *TBD* |
+| Past President | *TBD* | *TBD* | *TBD* |
+| Secretary | *TBD* | *TBD* | *TBD* |
+| Treasurer | *TBD* | *TBD* | *TBD* |
+| Eastern Region Director | *TBD* | *TBD* | *TBD* |
+| Central Region Director | *TBD* | *TBD* | *TBD* |
+| Western Region Director | *TBD* | *TBD* | *TBD* |
+| At-Large Director | *TBD* | *TBD* | *TBD* |
+| Webmaster | *TBD* | *TBD* | *TBD* |
+| Historian | *TBD* | *TBD* | *TBD* |
+| Liason from the NC Association of Community Colleges Presidents | *TBD* | *TBD* | *TBD* |
 :::
 
 ::: {.callout-note collapse="true" title="2023-2024 Officers"}
 
-| Role | Name | Institution |
-|------|------|-------------|
-| President | *TBD* | *TBD* |
-| Vice President | *TBD* | *TBD* |
-| Secretary | *TBD* | *TBD* |
-| Treasurer | *TBD* | *TBD* |
+| Role | Name | Institution | Email |
+|------|------|-------------|-------|
+| President | *TBD* | *TBD* | *TBD* |
+| President-Elect | *TBD* | *TBD* | *TBD* |
+| Past President | *TBD* | *TBD* | *TBD* |
+| Secretary | *TBD* | *TBD* | *TBD* |
+| Treasurer | *TBD* | *TBD* | *TBD* |
+| Eastern Region Director | *TBD* | *TBD* | *TBD* |
+| Central Region Director | *TBD* | *TBD* | *TBD* |
+| Western Region Director | *TBD* | *TBD* | *TBD* |
+| At-Large Director | *TBD* | *TBD* | *TBD* |
+| Webmaster | *TBD* | *TBD* | *TBD* |
+| Historian | *TBD* | *TBD* | *TBD* |
+| Liason from the NC Association of Community Colleges Presidents | *TBD* | *TBD* | *TBD* |
 
 :::
 

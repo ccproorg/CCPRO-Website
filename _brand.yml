@@ -7,11 +7,11 @@ meta:
 
 color:
   palette:
-    blue: "#1a5276"
-    light-blue: "#2e86c1"
-    dark: "#2c3e50"
-    light: "#f8f9fa"
-    accent: "#e74c3c"
+    blue: "#328ccc"
+    light-blue: "#bbd8ed"
+    dark: "#0e2332"
+    light: "#a4cce9"
+    accent: "#a8a8a8"
     white: "#ffffff"
   primary: blue
   secondary: light-blue
@@ -29,6 +29,6 @@ typography:
     family: "Fira Code, monospace"
 
 logo:
-  small: images/logo.png   # Add logo file when available
+  small: images/CCPRO - NC.png   # Add logo file when available
   # medium: images/logo-medium.png
   # large: images/logo-large.png

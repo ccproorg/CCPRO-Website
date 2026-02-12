@@ -16,5 +16,11 @@
   },
   "resources.qmd": {
     "resources.html": "f6eb1085"
+  },
+  "job-postings.qmd": {
+    "job-postings.html": "6c2b3ac8"
+  },
+  "membership-directory.qmd": {
+    "membership-directory.html": "fcbbc8ad"
   }
 }

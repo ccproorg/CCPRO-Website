@@ -1,0 +1,45 @@
+---
+title: "Membership Directory"
+toc: true
+echo: false
+warning: false
+---
+Utilize the table below to find contact information for CCPRO members. The directory is updated quarterly, so please check back for the most current information.
+
+To sign up for the directory, please contact the [CCPRO Webmaster](officers.qmd) to be added to the list. The directory is intended for use by CCPRO members only.
+
+```{r}
+#| label: libraries and data
+library(tidyverse)
+library(DT)
+library(readxl)
+
+directory <- read_excel(
+  "documents/CCPRO_Directory_10312025.xlsx",
+  sheet = "CCPRO_Directory"
+) |>
+  mutate(
+    college_website = str_remove(college_website, ",$")
+  )
+```
+
+```{r}
+#| label: directory table
+directory |>
+  datatable(
+    options = list(pageLength = 10, autoWidth = TRUE),
+    rownames = FALSE,
+    colnames = c(
+      "Member Name",
+      "Title",
+      "Region",
+      "College",
+      "College Address",
+      "College Website",
+      "Phone",
+      "Email",
+      "SACSCOC Liaison",
+      "Excecutive Committee Member"
+    )
+  )
+```

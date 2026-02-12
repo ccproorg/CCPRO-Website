@@ -11,16 +11,19 @@ website:
         text: Home
       - href: officers.qmd
         text: Officers
+      - href: membership-directory.qmd
+        text: Membership Directory
       - href: conferences.qmd
         text: Conferences/Meetings
       - href: documents.qmd
         text: Documents
       - href: resources.qmd
         text: Resources
-      - href: post-a-job.qmd
-        text: Post A Job
+      - href: job-postings.qmd
+        text: Job Postings
+
   page-footer:
-    center: "© CCPRO – Community College Planning and Research Organization"
+    center: "CCPRO – Community College Planning and Research Organization"
 
 format:
   html:

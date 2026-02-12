@@ -1,0 +1,23 @@
+---
+title: "Job Postings"
+toc: true
+link-external-newwindow: TRUE
+link-external-icon: TRUE
+---
+
+Share community college Institutional Research and Institutional Effectiveness job opportunities with CCPRO members.
+
+## Submit a Job Posting
+
+Use the form below to submit a job opening for distribution to CCPRO members.
+
+[CCPRO Job Posting Link](https://forms.office.com/Pages/ResponsePage.aspx?id=Q6JQBbeS50qrtuKLCu141YvyzA70qhZEp2tZz6l3pl5UNjVDOVdCRzVPMDNNNDJORTRLNjBIVU1PMS4u)
+
+
+## Current Openings
+
+| Position | Institution | Date Posted | Link | Application Deadline |
+|----------|-------------|-------------|------|---------|
+| *No current openings* | - | - | - | - | - |
+
+<!-- Update table with active job postings as they are submitted -->
