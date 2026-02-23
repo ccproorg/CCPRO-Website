@@ -7,8 +7,8 @@ toc: true
 
 | Role | Name | Institution | Email |
 |------|------|-------------|-------|
-| President | Meghan Nevil | Isothermal Community College | mnevil@isothermal.edu |
-| President-Elect | Britney L Shawley | Director of Assessment, Research, and Evaluation| blshawley@johnstoncc.edu |
+| President | Meghan Nevil | Isothermal Community College | [mnevil@isothermal.edu](mailto:mnevil@isothermal.edu) |
+| President-Elect | Britney L Shawley | Director of Assessment, Research, and Evaluation| [blshawley@johnstoncc.edu](mailto:blshawley@johnstoncc.edu) |
 | Past President | *TBD* | *TBD* | *TBD* |
 | Secretary | *TBD* | *TBD* | *TBD* |
 | Treasurer | *TBD* | *TBD* | *TBD* |
@@ -16,7 +16,7 @@ toc: true
 | Central Region Director | *TBD* | *TBD* | *TBD* |
 | Western Region Director | *TBD* | *TBD* | *TBD* |
 | At-Large Director | *TBD* | *TBD* | *TBD* |
-| Webmaster | Logan King | Haywood Community College | rking3387@haywood.edu |
+| Webmaster | Logan King | Haywood Community College | [rking3387@haywood.edu](mailto:rking3387@haywood.edu) |
 | Historian | *TBD* | *TBD* | *TBD* |
 | Liason from the NC Association of Community Colleges Presidents | *TBD* | *TBD* | *TBD* |
 

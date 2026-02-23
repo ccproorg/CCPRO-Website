@@ -26,6 +26,6 @@ This page serves as the organizational document repository for CCPRO. Documents 
 ## Other Documents
 
 - [Strategic Plan](#) <!-- Replace with actual links -->
-- [Membership Directory](#)
+- [Membership Directory](membership-directory.qmd)
 
 <!-- Add additional documents as needed -->
