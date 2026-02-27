@@ -31,13 +31,15 @@ jobs:
         with:
           r-version: '4.5.2' # specify the R version to use
 
+      - name: Install R packages
+        run: |
+          install.packages(c("rmarkdown", "knitr", "tidyverse", "DT", "readxl"))
+        shell: Rscript {0}
+
       - name: Publish to Netlify (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: netlify
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      - name: Install R packages
-        run: |
-          install.packages(c("rmarkdown", "knitr", "tidyverse", "DT", "readxl"))
-        shell: Rscript {0}
+
         
