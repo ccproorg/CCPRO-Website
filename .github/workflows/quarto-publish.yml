@@ -36,4 +36,8 @@ jobs:
         with:
           target: netlify
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      - name: Install R packages
+        run: |
+          install.packages(c("rmarkdown", "knitr", "tidyverse", "DT", "readxl"))
+        shell: Rscript {0}
         
