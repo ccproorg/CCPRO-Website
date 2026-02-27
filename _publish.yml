@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: 13333714-79a9-4368-b8e1-4b2e4b0bf72f
-      url: https://ccpro-website.netlify.app
+    - url: https://ccpro-website.netlify.app
