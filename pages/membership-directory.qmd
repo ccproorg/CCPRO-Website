@@ -10,7 +10,8 @@ To sign up for the directory, please contact the [CCPRO Webmaster](officers.qmd)
 
 ```{r}
 #| label: libraries and data
-library(tidyverse) # Load tidyverse for data manipulation
+library(dplyr) # Load dplyr for data manipulation
+library(stringr) # Load stringr for string manipulation
 library(DT) # Load DT for interactive tables
 library(readxl) # Load readxl for reading Excel files
 
