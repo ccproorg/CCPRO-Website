@@ -12,6 +12,7 @@ A Quarto-based website for CCPRO, a professional organization supporting institu
 |------|-------------|
 | Home | About Us / mission overview |
 | Officers | Current and past officer listings |
+| Membership Directory| Searchable directory for CCPRO members|
 | Conferences/Meetings | Upcoming and past events |
 | Documents | Organizational document repository |
 | Resources | Curated links for IR/IE professionals |

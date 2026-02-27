@@ -1,5 +1,6 @@
 _site/
 .quarto/
+.vscode/
 
 /.quarto/
 **/*.quarto_ipynb
