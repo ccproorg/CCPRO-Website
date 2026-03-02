@@ -43,5 +43,17 @@
   },
   "pages/resources.qmd": {
     "resources.html": "96388274"
+  },
+  "pages/about.qmd": {
+    "about.html": "04b833f0"
+  },
+  "pages/regions.qmd": {
+    "regions.html": "08b521d7"
+  },
+  "pages/executive-committee.qmd": {
+    "executive-committee.html": "e5f0c3eb"
+  },
+  "pages/notused/job-postings.qmd": {
+    "job-postings.html": "348bdeea"
   }
 }

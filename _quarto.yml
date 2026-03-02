@@ -12,18 +12,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: pages/officers.qmd
-        text: Officers
-      - href: pages/membership-directory.qmd
-        text: Membership Directory
-      - href: pages/conferences.qmd
-        text: Conferences/Meetings
-      - href: pages/documents.qmd
-        text: Documents
+      - href: pages/regions.qmd
+        text: Regions
       - href: pages/resources.qmd
         text: Resources
-      - href: pages/job-postings.qmd
-        text: Job Postings
+      - href: pages/documents.qmd
+        text: Documents
+      - href: pages/conferences.qmd
+        text: Conferences/Meetings
+      - href: pages/membership-directory.qmd
+        text: Membership Directory
+      # - href: pages/job-postings.qmd
+      #   text: Job Postings <!-- Uncomment when job postings page is needed -->
+      - href: pages/executive-committee.qmd
+        text: Executive Committee
 
   page-footer:
     center: "CCPRO – Community College Planning and Research Organization"

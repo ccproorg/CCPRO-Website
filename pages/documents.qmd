@@ -7,25 +7,19 @@ This page serves as the organizational document repository for CCPRO. Documents 
 
 ## Bylaws
 
-- [CCPRO Bylaws](../documents/CCPRO_Constitution_2019_final.pdf) 
+- [CCPRO Bylaws](../documents/CCPRO-Bylaws-Revised-April-2025.pdf) 
+
+## History
+- [CCPRO History](../documents/CCPRO_History_2010R.pdf) as narrated by Keith Brown.
 
 ## Meeting Minutes
+*The Executive Committee meets monthly. Minutes from the past 5 meetings are listed below. For older minutes, please contact the [Secretary](executive-committee.qmd)*
 
-- [Spring 2025 Business Meeting Minutes](#) <!-- Replace with actual links -->
-- [Fall 2024 Business Meeting Minutes](#)
+- [February 2026 Meeting Minutes](../documents/minutes/2026.02.06%20Executive%20Committee%20Meeting%20Minutes.pdf)
+- [January 2026 Meeting Minutes](../documents/minutes/2026.01.09%20CCPRO%20Executive%20Committee%20Meeting%20Minutes%20(1).pdf)
+- [November 2025 Meeting Minutes](../documents/minutes/2025.11.07%20CCPRO%20Executive%20Committee%20Meeting%20Minutes%20(1).pdf)
+- [October 2025 Meeting Minutes](../documents/minutes/2025.10.03%20CCPRO%20Executive%20Committee%20Meeting%20Minutes%20(1)%20(1).pdf)
+- [September 2025 Meeting Minutes](../documents/minutes/2025.09.05%20CCPRO%20Executive%20Committee%20Meeting%20Minutes%20(1).pdf)
 
-<!-- Add additional minutes following the pattern above -->
-
-## Annual Reports
-
-- [2024-2025 Annual Report](#) <!-- Replace with actual links -->
-- [2023-2024 Annual Report](#)
-
-<!-- Add additional reports following the pattern above -->
-
-## Other Documents
-
-- [Strategic Plan](#) <!-- Replace with actual links -->
-- [Membership Directory](membership-directory.qmd)
 
 <!-- Add additional documents as needed -->

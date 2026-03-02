@@ -1,0 +1,62 @@
+---
+title: "Executive Committee"
+toc: true
+---
+
+## Current Officers
+
+| Role | Name | Institution | Position | Email |
+|------|------|-------------|-------|-------|
+| President | Meghan Nevil | Isothermal Community College | Institutional Assessment Coordinator | [mnevil@isothermal.edu](mailto:mnevil@isothermal.edu) |
+| President-Elect | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |[blshawley@johnstoncc.edu](mailto:blshawley@johnstoncc.edu) |
+| Past President | Dr. Brian Miller | Pitt Community College | Vice President for Research and Technology | [bpmiller112@my.pittcc.edu](mailto:bpmiller112@my.pittcc.edu) |
+| Secretary | Laura Jennings | Rockingham Community College | Associate Vice President for Technology and Institutional Effectiveness | [jenningsl3489@rockinghamcc.edu](mailto:jenningsl3489@rockinghamcc.edu)  |
+| Treasurer | Dr. Erica Caracoglia | Martin Community College | Vice President for Strategic Initiatives | [ec10800@martincc.edu](mailto:ec10800@martincc.edu) |
+| Eastern Region Director | Dr. Kimberly Mullis | Beaufort County Community College | Dean of Institutional Effectiveness | [kimberly.mullis@beaufortccc.edu](mailto:kimberly.mullis@beaufortccc.edu) |
+| Central Region Director | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |[blshawley@johnstoncc.edu](mailto:blshawley@johnstoncc.edu) |
+| Western Region Director | Dr. Katie Bowman Woods | Surry Community College | Executive Director of Institutional Research | [bowmankd@surry.edu](mailto:bowmankd@surry.edu) |
+| North Carolina Community College System Representative | Dr. Eva Gifford | North Carolina Community College System Office | Associate Director of Data Engagement and Governance | [gifforde@nccommunitycolleges.edu](mailto:gifforde@nccommunitycolleges.edu) |
+| Webmaster | Logan King | Haywood Community College | Assessment and Research Analyst | [rking3387@haywood.edu](mailto:rking3387@haywood.edu) |
+| Historian | Dr. Rashmi Sinha | Forsyth Technical Community College | Director of Data Analytics and Institutional Research | [rsinha@forsythtech.edu](mailto:rsinha@forsythtech.edu) |
+| Liaison from the NC Association of Community Colleges Presidents | Dr. Margaret Annunziata | Isothermal Community College | President | Isothermal Community College |
+
+
+## Past Officers
+
+::: {.callout-note collapse="true" title="2024-2025 Officers"}
+
+| Role | Name | Institution | Position |
+|------|------|-------------|-------|
+| President | Dr. Brain Miller | Pitt Community College | Vice President for Research and Technology  |
+| President-Elect | Meghan Nevil | Isothermal Community College | Institutional Assessment Coordinator |
+| Past President | Dr. Michael Cobb | Cape Fear Community College | Vice President of Institutional Effectiveness and Research|
+| Secretary | *NA* | *NA* | *NA* |
+| Treasurer | Dr. Erica Caracoglia | Martin Community College | Vice President for Strategic Initiatives |
+| Eastern Region Director | *NA* | *NA* | *NA* |
+| Central Region Director | *NA* | *NA* | *NA* |
+| Western Region Director | Dr. Katie Bowman Woods | Surry Community College | Executive Director of Institutional Research |
+| North Carolina Community College System Representative | *NA* | *NA* | *NA* |
+| Webmaster | *NA* | *NA* | *NA* |
+| Historian |  Dr. Rashmi Sinha | Forsyth Technical Community College | Director of Data Analytics and Institutional Research |
+| Liaison from the NC Association of Community Colleges Presidents | *NA* | *NA* | *NA* |
+:::
+
+::: {.callout-note collapse="true" title="2023-2024 Officers"}
+
+| Role | Name | Institution | Position |
+|------|------|-------------|-------|
+| President | Dr. Michael Cobb | Cape Fear Community College | Vice President of Institutional Effectiveness and Research |
+| President-Elect | Dr. Brain Miller | Pitt Community College | Vice President for Research and Technology |
+| Past President | Dr. Nicole Fogel | Gaston College | Institutional Effectiveness Coordinator |
+| Secretary | Christine Teach | South Piedmont Community College | Director of Data Analytics and Reporting |
+| Treasurer | Dr. Erica Caracoglia | Martin Community College | Vice President for Strategic Initiatives |
+| Eastern Region Director | Natalie Hinson | *NA* | *NA* |
+| Central Region Director | Kim Sandoval | South Piedmont Community College | Institutional Researcher/Project Manager |
+| Western Region Director | Dr. Katie Bowman Woods | Surry Community College | Executive Director of Institutional Research |
+| Webmaster | Meghan Nevil | Isothermal Community College | Institutional Assessment Coordinator |
+| Historian | Dr. Rashmi Sinha | Forsyth Technical Community College | Director of Data Analytics and Institutional Research |
+| Liaison from the NC Association of Community Colleges Presidents | *NA* | *NA* | *NA* |
+
+:::
+
+<!-- Add additional years as collapsible sections following the pattern above -->

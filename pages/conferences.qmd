@@ -5,13 +5,19 @@ toc: true
 
 ## Upcoming Events
 
-::: {.callout-tip title="Next Conference"}
+::: {.callout-note icon=false title="Next Conference"}
 
 **CCPRO Annual Conference**
 
-- **Date:** *TBD*
-- **Location:** *TBD*
-- **Theme:** *TBD*
+- **Date:** June 4th, 2026
+- **Location:** *(Tri-College Conference)*
+
+| College | City | Address |
+|--------|------|---------|
+| Haywood Community College | Clyde, NC | 185 Freedlander Dr, Clyde, NC 28721 |
+| College of the Albemarle | Elizabeth City, NC | 1208 N Road St, Elizabeth City, NC 27909 |
+| Johnston Community College | Smithfield, NC | 245 College Rd, Smithfield, NC 27577 |
+
 - **Registration:** [Register here](#) <!-- Replace with registration link -->
 
 :::
@@ -20,13 +26,12 @@ toc: true
 
 ## Past Conferences
 
-| Year | Event | Location | Theme |
-|------|-------|----------|-------|
-| 2025 | Annual Conference | *TBD* | *TBD* |
-| 2024 | Annual Conference | *TBD* | *TBD* |
-| 2023 | Annual Conference | *TBD* | *TBD* |
-
-<!-- Update with actual past conference details -->
+| Year | Event | Date | Location | 
+|------|-------|----------|---------|
+| 2025 | No Conference Hosted | NA | NA |
+| 2024 | Business Meeting | 10/17/2024 | Raleigh Conference Center, Raleigh, NC | 
+| 2023 | Annual Conference | 10/23/23 - 10/25/23 | Hilton Raleigh North Hills. Raleigh, NC |
+| 2022 | Annual Conference | 11/2/22 - 11/4/22 | J.E. Broyhill Civic Center, Lenior, NC | 
 
 ## Meeting Minutes
 
