@@ -1,6 +1,7 @@
 _site/
 .quarto/
 .vscode/
+pages/notused
 
 /.quarto/
 **/*.quarto_ipynb
