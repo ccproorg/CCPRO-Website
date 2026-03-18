@@ -18,7 +18,7 @@ toc: true
 | College of the Albemarle | Elizabeth City, NC | 1208 N Road St, Elizabeth City, NC 27909 |
 | Johnston Community College | Smithfield, NC | 245 College Rd, Smithfield, NC 27577 |
 
-- **Registration:** [Register here](#) <!-- Replace with registration link -->
+- **Registration:** [Register here](https://johnstoncc.az1.qualtrics.com/jfe/form/SV_7VOpvY4BJcYqaKq) <!-- Replace with registration link -->
 
 :::
 
@@ -32,7 +32,3 @@ toc: true
 | 2024 | Business Meeting | 10/17/2024 | Raleigh Conference Center, Raleigh, NC | 
 | 2023 | Annual Conference | 10/23/23 - 10/25/23 | Hilton Raleigh North Hills. Raleigh, NC |
 | 2022 | Annual Conference | 11/2/22 - 11/4/22 | J.E. Broyhill Civic Center, Lenior, NC | 
-
-## Meeting Minutes
-
-Meeting minutes from CCPRO business meetings are available on the [Documents](documents.qmd) page.

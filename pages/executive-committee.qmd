@@ -18,7 +18,7 @@ toc: true
 | North Carolina Community College System Representative | Dr. Eva Gifford | North Carolina Community College System Office | Associate Director of Data Engagement and Governance | [gifforde@nccommunitycolleges.edu](mailto:gifforde@nccommunitycolleges.edu) |
 | Webmaster | Logan King | Haywood Community College | Assessment and Research Analyst | [rking3387@haywood.edu](mailto:rking3387@haywood.edu) |
 | Historian | Dr. Rashmi Sinha | Forsyth Technical Community College | Director of Data Analytics and Institutional Research | [rsinha@forsythtech.edu](mailto:rsinha@forsythtech.edu) |
-| Liaison from the NC Association of Community Colleges Presidents | Dr. Margaret Annunziata | Isothermal Community College | President | Isothermal Community College |
+| Liaison from the NC Association of Community Colleges Presidents | Dr. Margaret Annunziata | Isothermal Community College | President | [mannunziata@isothermal.edu](mailto:mannunziata@isothermal.edu)|
 
 
 ## Past Officers
