@@ -4,9 +4,16 @@ toc: true
 echo: false
 warning: false
 ---
+```{=html}
+<style>
+.column-screen-inset table.dataTable {
+  font-size: 0.75rem;
+}
+</style>
+```
 Utilize the table below to find contact information for CCPRO members. The directory is updated quarterly, so please check back for the most current information.
 
-To sign up for the directory, please contact the [CCPRO Webmaster](executive-committee.qmd) to be added to the list. The directory is intended for use by CCPRO members only.
+To sign up for the directory, please fill out the [Membership Form](membership-form.qmd) to be added to the list. The directory is updated monthly, so check back for the most recent information. The directory is intended for use by CCPRO members only.
 
 ```{r}
 #| label: libraries and data
@@ -20,26 +27,51 @@ directory <- read_excel(
   sheet = "CCPRO_Directory"
 ) |> # Read in the directory from Excel: CCPRO_Directory_10312025.xlsx Sheet: CCPRO_Directory
   mutate(
-    college_website = str_remove(college_website, ",$")
+    college_website = str_remove(college_website, ",$"),
+    college_website = ifelse(
+      !is.na(college_website) & college_website != "",
+      str_glue(
+        '<a href="{college_website}" target="_blank">{college_website}</a>'
+      ),
+      college_website
+    ),
+    email = ifelse(
+      !is.na(email) & email != "",
+      str_glue('<a href="mailto:{email}">{email}</a>'),
+      email
+    )
   ) # Clean up any trailing commas in the college_website column
 ```
 
 ```{r}
 #| label: directory table
+#| column: screen-inset
 directory |>
+  select(
+    member_name,
+    title,
+    region,
+    college,
+    college_website,
+    email,
+    college_phone,
+    college_address,
+    sacscoc_liaison,
+    executive_committee_member
+  ) |>
   datatable(
-    # Create an interactive datatable using DT (HTML widget)
-    options = list(pageLength = 10, autoWidth = TRUE), # Set table length and auto width
+    escape = FALSE,
+    options = list(pageLength = 10, scrollX = FALSE, autoWidth = FALSE), # Set table length and auto width
     rownames = FALSE, # Remove row names
     colnames = c(
       "Member Name",
       "Title",
       "Region",
       "College",
-      "College Address",
       "College Website",
-      "Phone",
       "Email",
+      "Phone",
+      "College Address",
       "SACSCOC Liaison",
       "Executive Committee Member"
     ) # Clean column names for display

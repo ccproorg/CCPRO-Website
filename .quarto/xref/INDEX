@@ -55,5 +55,8 @@
   },
   "pages/notused/job-postings.qmd": {
     "job-postings.html": "348bdeea"
+  },
+  "pages/membership-form.qmd": {
+    "membership-form.html": "c08e4a8f"
   }
 }

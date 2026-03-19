@@ -15,10 +15,10 @@ CCPRO is composed of institutional research and institutional effectiveness prof
 
 ## What We Do
 
-- **Professional Development** — We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.
-- **Networking** — We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.
-- **Resource Sharing** — We curate and distribute tools, templates, and guidance relevant to community college research and assessment.
-- **Advocacy** — We advocate for the role of institutional research in data-informed decision making at community colleges.
+- **Professional Development:** We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.
+- **Networking:** We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.
+- **Resource Sharing:** We curate and distribute tools, templates, and guidance relevant to community college research and assessment.
+- **Advocacy:** We advocate for the role of institutional research in data-informed decision making at community colleges.
 
 ## Get Involved
 

@@ -24,8 +24,11 @@ website:
         text: Membership Directory
       # - href: pages/job-postings.qmd
       #   text: Job Postings <!-- Uncomment when job postings page is needed -->
+      - href: pages/membership-form.qmd
+        text: Membership Form
       - href: pages/executive-committee.qmd
         text: Executive Committee
+
 
   page-footer:
     center: "CCPRO – Community College Planning and Research Organization"

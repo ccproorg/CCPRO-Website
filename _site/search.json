@@ -53,7 +53,7 @@
     "href": "pages/membership-directory.html",
     "title": "Membership Directory",
     "section": "",
-    "text": "Utilize the table below to find contact information for CCPRO members. The directory is updated quarterly, so please check back for the most current information.\nTo sign up for the directory, please contact the CCPRO Webmaster to be added to the list. The directory is intended for use by CCPRO members only."
+    "text": "Utilize the table below to find contact information for CCPRO members. The directory is updated quarterly, so please check back for the most current information.\nTo sign up for the directory, please fill out the Membership Form to be added to the list. The directory is updated monthly, so check back for the most recent information. The directory is intended for use by CCPRO members only."
   },
   {
     "objectID": "pages/documents.html",
@@ -109,7 +109,7 @@
     "href": "index.html#what-we-do",
     "title": "Community College Planning and Research Organization",
     "section": "What We Do",
-    "text": "What We Do\n\nProfessional Development — We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.\nNetworking — We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.\nResource Sharing — We curate and distribute tools, templates, and guidance relevant to community college research and assessment.\nAdvocacy — We advocate for the role of institutional research in data-informed decision making at community colleges."
+    "text": "What We Do\n\nProfessional Development: We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.\nNetworking: We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.\nResource Sharing: We curate and distribute tools, templates, and guidance relevant to community college research and assessment.\nAdvocacy: We advocate for the role of institutional research in data-informed decision making at community colleges."
   },
   {
     "objectID": "index.html#get-involved",
@@ -285,5 +285,12 @@
     "title": "Job Postings",
     "section": "Current Openings",
     "text": "Current Openings\n\n\n\nPosition\nInstitution\nDate Posted\nLink\nApplication Deadline\n\n\n\n\nNo current openings\n-\n-\n-\n-"
+  },
+  {
+    "objectID": "pages/membership-form.html",
+    "href": "pages/membership-form.html",
+    "title": "Membership Directory Form",
+    "section": "",
+    "text": "Please fill out the form below to be added or to edit your information in the CCPRO Membership Directory. This directory is updated monthly, so please check back for the most current information."
   }
 ]
