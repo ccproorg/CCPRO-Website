@@ -61,7 +61,14 @@ directory |>
   ) |>
   datatable(
     escape = FALSE,
-    options = list(pageLength = 10, scrollX = FALSE, autoWidth = FALSE), # Set table length and auto width
+    options = list(
+      pageLength = 10,
+      scrollX = FALSE,
+      autoWidth = FALSE,
+      dom = "Bfrtip",
+      buttons = c("csv", "excel", "pdf")
+    ), # Set table length and auto width
+    extensions = "Buttons", # Add export buttons
     rownames = FALSE, # Remove row names
     colnames = c(
       "Member Name",
