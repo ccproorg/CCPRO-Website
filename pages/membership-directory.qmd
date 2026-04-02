@@ -23,18 +23,9 @@ library(DT) # Load DT for interactive tables
 library(readxl) # Load readxl for reading Excel files
 
 directory <- read_excel(
-  "../documents/CCPRO_Directory_10312025.xlsx",
-  sheet = "CCPRO_Directory"
-) |> # Read in the directory from Excel: CCPRO_Directory_10312025.xlsx Sheet: CCPRO_Directory
+  "../documents/CCPRO_Membership_Database.xlsx"
+) |> # Read in the directory from Excel: CCPRO_Membership_Database.xlsx
   mutate(
-    college_website = str_remove(college_website, ",$"),
-    college_website = ifelse(
-      !is.na(college_website) & college_website != "",
-      str_glue(
-        '<a href="{college_website}" target="_blank">{college_website}</a>'
-      ),
-      college_website
-    ),
     email = ifelse(
       !is.na(email) & email != "",
       str_glue('<a href="mailto:{email}">{email}</a>'),
@@ -52,10 +43,8 @@ directory |>
     title,
     region,
     college,
-    college_website,
     email,
     college_phone,
-    college_address,
     sacscoc_liaison,
     executive_committee_member
   ) |>
@@ -66,7 +55,7 @@ directory |>
       scrollX = FALSE,
       autoWidth = FALSE,
       dom = "Bfrtip",
-      buttons = c("csv", "excel", "pdf")
+      buttons = c("csv", "excel")
     ), # Set table length and auto width
     extensions = "Buttons", # Add export buttons
     rownames = FALSE, # Remove row names
@@ -75,10 +64,8 @@ directory |>
       "Title",
       "Region",
       "College",
-      "College Website",
       "Email",
       "Phone",
-      "College Address",
       "SACSCOC Liaison",
       "Executive Committee Member"
     ) # Clean column names for display

@@ -14,6 +14,7 @@ A Quarto-based website for CCPRO, a professional organization supporting institu
 | Documents | Organizational document repository |
 | Conferences/Meetings | Upcoming and past events |
 | Membership Directory| Searchable directory for CCPRO members|
+| Membership Form | Form to add a new member or change current member information|
 | Executive Committee | Current and past officer listings |
 <!-- | Post A Job | Job board for community college IR/IE positions | Not currently being used-->
 
@@ -21,6 +22,8 @@ A Quarto-based website for CCPRO, a professional organization supporting institu
 
 - [Quarto](https://quarto.org/) — static site generator
 - Cosmo Bootstrap theme with `_brand.yml` for custom branding
+- Github.com - Manage version control and push to site.
+- Netlify.com - Manage the site and domain.
 
 ## Getting Started
 
@@ -41,8 +44,9 @@ quarto render
 - [x] Add CCPRO logo and branding assets to `images/` (Need to actually apply the logo)
 - [x] Update `_brand.yml` with official colors, fonts, and logo
 - [x] Populate officer, conference, and document content
-- [ ] Upload organizational documents (bylaws, minutes, reports) and link them from `documents.qmd`
+- [x] Upload organizational documents (bylaws, minutes, reports) and link them from `documents.qmd`
 - [x] Embed a job posting form (Google Form / Microsoft Form) on the Post A Job page (Currently in Webmaster's one drive, could add to ccpro onedrive)
 - [x] Set up deployment via GitHub Actions + Netlify (or similar hosting provider)
 - [x] Add a `.gitignore` for `_site/` and `.quarto/`
-- [ ] Get membership form to directly link with excel file pulling members for datatable on membership-directory.qmd.
+- [ ] Get membership form directly linked with membership database for datatable on membership-directory.qmd.
+    - [ ] Add pre-render script to grab the live excel file every push automatically. 
