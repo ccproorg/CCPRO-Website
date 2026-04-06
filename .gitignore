@@ -5,3 +5,4 @@ pages/notused
 
 /.quarto/
 **/*.quarto_ipynb
+_pre-render.r

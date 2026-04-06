@@ -1,6 +1,5 @@
 project:
   type: website
-  pre-render: _pre-render.r
 
 website:
   title: ""
