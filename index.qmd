@@ -15,16 +15,17 @@ CCPRO is composed of institutional research and institutional effectiveness prof
 
 ## What We Do
 
-- **Professional Development:** We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.
-- **Networking:** We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.
-- **Resource Sharing:** We curate and distribute tools, templates, and guidance relevant to community college research and assessment.
-- **Advocacy:** We advocate for the role of institutional research in data-informed decision making at community colleges.
+-   **Professional Development:** We provide workshops, training sessions, and conference presentations to help members grow their skills and stay current with best practices.
+-   **Networking:** We connect IR/IE professionals across the state to share knowledge, strategies, and solutions.
+-   **Resource Sharing:** We curate and distribute tools, templates, and guidance relevant to community college research and assessment.
+-   **Advocacy:** We advocate for the role of institutional research in data-informed decision making at community colleges.
 
 ## Get Involved
 
 Interested in joining CCPRO or learning more? Visit our [Officers](pages/executive-committee.qmd) page for contact information or check out upcoming [Conferences & Meetings](pages/conferences.qmd).
 
 ## Frequently Asked Questions
+
 ::: {.callout-note collapse="true" title="Where are the Bylaws?"}
 CCPRO has a standard set of bylaws to help govern the group. You can review the [CCPRO Bylaws](documents/CCPRO-Bylaws-Revised-April-2025.pdf) at your convenience. You can also find the bylaws and other documents on the [Documents](pages/documents.qmd) page.
 :::
@@ -42,6 +43,8 @@ This completely free membership is provided to any current NC Community College 
 :::
 
 <!-- The following section is commented out for now, but can be added back in when needed. -->
+
+```{=html}
 <!--
 ::: {.callout-note collapse="true" title="CCPRO Committees"}
 Data Governance Committee
@@ -50,6 +53,7 @@ CIOA Committee
 Dashboard Review Team
 :::
 -->
+```
 
 ::: {.callout-note collapse="true" title="Where to find the Membership form and Directory?"}
 To request membership in CCPRO, revise current membership directory information, or to view the current membership directory, please visit the [Membership Directory](pages/membership-directory.qmd).

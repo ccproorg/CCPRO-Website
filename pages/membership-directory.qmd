@@ -16,27 +16,15 @@ Utilize the table below to find contact information for CCPRO members. The direc
 To sign up for the directory, please fill out the [Membership Form](membership-form.qmd) to be added to the list. The directory is updated monthly, so check back for the most recent information. The directory is intended for use by CCPRO members only.
 
 ```{r}
-#| label: libraries and data
+#| label: directory table
+#| column: screen-inset
 library(dplyr) # Load dplyr for data manipulation
 library(stringr) # Load stringr for string manipulation
 library(DT) # Load DT for interactive tables
 library(readxl) # Load readxl for reading Excel files
 
-directory <- read_excel(
-  "../documents/CCPRO_Membership_Database.xlsx"
-) |> # Read in the directory from Excel: CCPRO_Membership_Database.xlsx
-  mutate(
-    email = ifelse(
-      !is.na(email) & email != "",
-      str_glue('<a href="mailto:{email}">{email}</a>'),
-      email
-    )
-  ) # Clean up any trailing commas in the college_website column
-```
+directory <- readRDS("../code/directory.rds")
 
-```{r}
-#| label: directory table
-#| column: screen-inset
 directory |>
   select(
     member_name,
