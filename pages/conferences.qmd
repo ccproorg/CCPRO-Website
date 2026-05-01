@@ -19,7 +19,9 @@ toc: true
 | Johnston Community College | Smithfield, NC | 245 College Rd, Smithfield, NC 27577 |
 
 - **Registration:** [Register here](https://johnstoncc.az1.qualtrics.com/jfe/form/SV_7VOpvY4BJcYqaKq) <!-- Replace with registration link -->
-
+- **Conference Sponsor:** [Zogotech](https://zogotech.com/)
+    - Thank you to Zogotech for sponsoring the 2026 CCPRO Annual Conference!
+![](../images/ZogoTech-Logo-Master-blue.jpg)
 :::
 
 <!-- Add additional upcoming events as needed -->
