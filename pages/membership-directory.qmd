@@ -25,9 +25,9 @@ library(readxl) # Load readxl for reading Excel files
 
 
 new_members <- read_excel(
-  "../documents/CCPRO_Membership_Database.xlsx",
+  "../documents/CCPRO_Membership_Database_6_12_26.xlsx",
   sheet = "New Membership"
-) |> # Read in the directory from Excel: CCPRO_Membership_Database.xlsx
+) |> # Read in the directory from Excel: CCPRO_Membership_Database_M_DD_YY.xlsx
   mutate(
     email = ifelse(
       !is.na(email) & email != "",
@@ -47,7 +47,7 @@ new_members <- read_excel(
   )
 
 edit_members <- read_excel(
-  "../documents/CCPRO_Membership_Database.xlsx",
+  "../documents/CCPRO_Membership_Database_6_12_26.xlsx",
   sheet = "Edit Membership"
 ) |> # Read in the directory from Excel: CCPRO_Membership_Database.xlsx
   mutate(
