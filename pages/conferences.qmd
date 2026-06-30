@@ -9,27 +9,28 @@ toc: true
 
 **CCPRO Annual Conference**
 
-- **Date:** June 4th, 2026
-- **Location:** *(Tri-College Conference)*
+- **Date:** Fall 2027 - TBD
+- **Location:** Western Region - TBD
 
-| College | City | Address |
-|--------|------|---------|
-| Haywood Community College | Clyde, NC | 185 Freedlander Dr, Clyde, NC 28721 |
-| College of the Albemarle | Elizabeth City, NC | 1208 N Road St, Elizabeth City, NC 27909 |
-| Johnston Community College | Smithfield, NC | 245 College Rd, Smithfield, NC 27577 |
-
-- **Registration:** [Register here](https://johnstoncc.az1.qualtrics.com/jfe/form/SV_7VOpvY4BJcYqaKq) <!-- Replace with registration link -->
-- **Conference Sponsor:** [Zogotech](https://zogotech.com/)
-    - Thank you to Zogotech for sponsoring the 2026 CCPRO Annual Conference!
-![](../images/ZogoTech-Logo-Master-blue.jpg)
 :::
 
 <!-- Add additional upcoming events as needed -->
+
+## Photos from Past Conferences
+::: {.callout-note collapse="true" title="2026 Joint Conference - HCC"}
+![Attendees representing Haywood CC, Cleveland CC, Pitt CC, Isothermal CC, McDowell Tech, and A-B Tech](/images/hcc-joint-conference/CCPRO%20Attendees%20HCC%201.jpg)
+![Welcome Sign CCPRO at HCC gate](/images/hcc-joint-conference/Welcome%20Sign%20CCPRO.jpg)
+:::
+
+::: {.callout-note collapse="true" title="2026 Joint Conference - JCC"}
+
+:::
 
 ## Past Conferences
 
 | Year | Event | Date | Location | 
 |------|-------|----------|---------|
+| 2026 | Joint Conference | 6/4/2026 | Co-College Hosted: Haywood Community College, Clyde NC and Johnston Community College, Smithfield NC |
 | 2025 | No Conference Hosted | NA | NA |
 | 2024 | Business Meeting | 10/17/2024 | Raleigh Conference Center, Raleigh, NC | 
 | 2023 | Annual Conference | 10/23/23 - 10/25/23 | Hilton Raleigh North Hills. Raleigh, NC |
