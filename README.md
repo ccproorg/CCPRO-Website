@@ -33,6 +33,8 @@ The membership directory is built from an Excel workbook (`documents/CCPRO_Membe
 1. **New Membership** — base member records
 2. **Edit Membership** — change requests that override base records
 
+You have to update the name of the file to the date pulled and update it on the `membership-directory.qmd` file.
+
 `_pre-render.r` reads both sheets, merges the latest edits per member, and saves the result as `code/directory.rds`, which is consumed by `pages/membership-directory.qmd` at render time.
 
 ## Getting Started
