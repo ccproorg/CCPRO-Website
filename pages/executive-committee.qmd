@@ -7,21 +7,37 @@ toc: true
 
 | Role | Name | Institution | Position | Email |
 |------|------|-------------|-------|-------|
-| President | Meghan Nevil | Isothermal Community College | Institutional Assessment Coordinator | [mnevil@isothermal.edu](mailto:mnevil@isothermal.edu) |
-| President-Elect | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |[blshawley@johnstoncc.edu](mailto:blshawley@johnstoncc.edu) |
-| Past President | Dr. Brian Miller | Pitt Community College | Vice President for Research and Technology | [bpmiller112@my.pittcc.edu](mailto:bpmiller112@my.pittcc.edu) |
+| President | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |[blshawley@johnstoncc.edu](mailto:blshawley@johnstoncc.edu) |
+| President-Elect and Webmaster | Logan King | Haywood Community College | Assessment and Research Analyst | [rking3387@haywood.edu](mailto:rking3387@haywood.edu) |
+| Past President | Meghan Nevil | Isothermal Community College | Institutional Assessment Coordinator | [mnevil@isothermal.edu](mailto:mnevil@isothermal.edu) |
 | Secretary | Laura Jennings | Rockingham Community College | Associate Vice President for Technology and Institutional Effectiveness | [jenningsl3489@rockinghamcc.edu](mailto:jenningsl3489@rockinghamcc.edu)  |
-| Treasurer | Dr. Erica Caracoglia | Martin Community College | Vice President for Strategic Initiatives | [ec10800@martincc.edu](mailto:ec10800@martincc.edu) |
+| Treasurer | Bruce Cole | Central Piedmont Community College | AVP Financial Services | [bruce.cole@cpcc.edu](mailto:bruce.cole@cpcc.edu) |
 | Eastern Region Director | Dr. Kimberly Mullis | Beaufort County Community College | Dean of Institutional Effectiveness | [kimberly.mullis@beaufortccc.edu](mailto:kimberly.mullis@beaufortccc.edu) |
-| Central Region Director | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |[blshawley@johnstoncc.edu](mailto:blshawley@johnstoncc.edu) |
-| Western Region Director | Dr. Katie Bowman Woods | Surry Community College | Executive Director of Institutional Research | [bowmankd@surry.edu](mailto:bowmankd@surry.edu) |
+| Central Region Director | Dr. Cindy Dean | Stanly Community College | Director of Institutional Effectiveness |[cdean5600@stanly.edu](mailto:cdean5600@stanly.edu) |
+| Western Region Director | Kaitlin Pierce | A-B Tech Community College | Analyst, Economic and Workforce Development & Continuing Education | [KaitlinLPierce@abtech.edu](mailto:KaitlinLPierce@abtech.edu) |
 | North Carolina Community College System Representative | Dr. Eva Gifford | North Carolina Community College System Office | Associate Director of Data Engagement and Governance | [gifforde@nccommunitycolleges.edu](mailto:gifforde@nccommunitycolleges.edu) |
-| Webmaster | Logan King | Haywood Community College | Assessment and Research Analyst | [rking3387@haywood.edu](mailto:rking3387@haywood.edu) |
-| Historian | Dr. Rashmi Sinha | Forsyth Technical Community College | Director of Data Analytics and Institutional Research | [rsinha@forsythtech.edu](mailto:rsinha@forsythtech.edu) |
+| Historian | Dr. Vincent Castano | Fayetteville Technical Community College | 	Dean of Institutional Effectiveness | [castanov@faytechcc.edu](mailto:castanov@faytechcc.edu) |
 | Liaison from the NC Association of Community Colleges Presidents | Dr. Margaret Annunziata | Isothermal Community College | President | [mannunziata@isothermal.edu](mailto:mannunziata@isothermal.edu)|
 
 
 ## Past Officers
+
+::: {.callout-note collapse="true" title="2025-2026 Officers"}
+| Role | Name | Institution | Position |
+|------|------|-------------|-------|
+| President | Meghan Nevil | Isothermal Community College | Institutional Assessment Coordinator | 
+| President-Elect | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |
+| Past President | Dr. Brian Miller | Pitt Community College | Vice President for Research and Technology |
+| Secretary | Laura Jennings | Rockingham Community College | Associate Vice President for Technology and Institutional Effectiveness |
+| Treasurer | Dr. Erica Caracoglia | Martin Community College | Vice President for Strategic Initiatives | 
+| Eastern Region Director | Dr. Kimberly Mullis | Beaufort County Community College | Dean of Institutional Effectiveness | 
+| Central Region Director | Dr. Britney L Shawley | Johnston Community College | Director of Assessment, Research, and Evaluation |
+| Western Region Director | Dr. Katie Bowman Woods | Surry Community College | Executive Director of Institutional Research | 
+| North Carolina Community College System Representative | Dr. Eva Gifford | North Carolina Community College System Office | Associate Director of Data Engagement and Governance |
+| Webmaster | Logan King | Haywood Community College | Assessment and Research Analyst |
+| Historian | Dr. Rashmi Sinha | Forsyth Technical Community College | Director of Data Analytics and Institutional Research 
+| Liaison from the NC Association of Community Colleges Presidents | Dr. Margaret Annunziata | Isothermal Community College | President |
+:::
 
 ::: {.callout-note collapse="true" title="2024-2025 Officers"}
 
