@@ -37,3 +37,8 @@ table th {
 .content ul li {
   margin-bottom: 0.35rem;
 }
+
+/* Dark Captions */
+figcaption.figure-caption {
+  color: #000 !important;
+}

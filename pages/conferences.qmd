@@ -16,9 +16,21 @@ toc: true
 
 <!-- Add additional upcoming events as needed -->
 
-## Photos from Past Conferences
+## Photos from Past Conferences and Meetings
+
+::: {.callout-note collapse="true" title="CCPRO Attends the SACSCOC Summer Institute in Atlanta Georgia"}
+Many of the CCPRO and NCCCS Accreditation, IR, and IE professionals attended the SACSCOC Summer Institute in Atlanta. Some were even on the program including Dr. Kimberly Mullis from Beaufort CCC and Dr. Greg Thomas (Non-CCPRO Member) and Leeann Cline-Burrris of Isothermal CC. Both presented on Student Success and represented NCCCS and CCPRO well. Many members also attended Braves games across several days and a big share of the group shared a memorable dinner at Max Lager's Wood-Fired Grill & Brewery. See the few pictures we took together below. If you attended and have pictures, please share them with our [Webmaster](executive-committee.qmd)!
+
+![Dinner at Max Lager's: Colleges Represented - Wilson CC, Craven CC, Haywood CC, Johnston CC, Beaufort CCC, and Others](/images/CCPRO_At_Summer_Institute/CCPRODinner.jpg)
+
+![Many folks went to the Braves Game including CCPRO President, President-Elect/Webmaster, and Eastern Region Director pictured here! (The Braves were 2 to 1 when CCPRO members attended their games...)](/images/CCPRO_At_Summer_Institute/BravesGame.jpg)
+
+![Go Braves](/images/CCPRO_At_Summer_Institute/Game2.jpg)
+:::
+
 ::: {.callout-note collapse="true" title="2026 Joint Conference - HCC"}
 ![Attendees representing Haywood CC, Cleveland CC, Pitt CC, Isothermal CC, McDowell Tech, and A-B Tech](/images/hcc-joint-conference/CCPRO%20Attendees%20HCC%201.jpg)
+
 ![Welcome Sign CCPRO at HCC gate](/images/hcc-joint-conference/Welcome%20Sign%20CCPRO.jpg)
 :::
 

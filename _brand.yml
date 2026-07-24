@@ -13,6 +13,7 @@ color:
     light: "#a4cce9"
     accent: "#a8a8a8"
     white: "#ffffff"
+    black: "#000000"
   primary: blue
   secondary: light-blue
   foreground: dark
