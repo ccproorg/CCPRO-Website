@@ -8,6 +8,9 @@ A curated collection of resources for Institutional Research and Assessment prof
 
 If you want to contribute a resource, please contact the [CCPRO Webmaster](executive-committee.qmd) to have it added to the list.
 
+## CCPRO Resources
+- [CCPRO SharePoint Home Page](https://ccproorg.sharepoint.com/sites/CommunityCollegePlanningandResourceOrganization) *This site is only accessable by the membership.*
+
 ## Federal & National Resources
 
 - [IPEDS - Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/)
