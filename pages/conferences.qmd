@@ -7,6 +7,11 @@ toc: true
 
 ::: {.callout-note icon=false title="Next Conference"}
 
+**CCPRO Business Meeting at the NCCCS Conference**
+
+- **Date:** October 14th from 10:00 - 11:30AM
+- **Location:** NCCCS Conference Meeting, Room 305B
+
 **CCPRO Annual Conference**
 
 - **Date:** Fall 2027 - TBD
