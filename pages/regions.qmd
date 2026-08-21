@@ -1,97 +1,297 @@
 ---
-title: "Regions"
-toc: false
+title: "CCPRO Regional Map"
+format:
+  html:
+    page-layout: full
+    toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto
 ---
-:::{style="text-align: center;"}
-## Our Regions
+
+
+## About Our Regions
 Our three regions create collaborative communities to help bring your ideas to life. Each region has a representative on the Executive Committee as listed below along with the colleges in each region:
+
+```{r}
+#| label: setup
+
+library(sf)
+library(dplyr)
+library(readr)
+library(leaflet)
+library(htmltools)
+library(DT)
+
+# Geometry is prebuilt by code/map.R and committed -- never regenerate it here.
+counties_sf <- st_read("../data/nc_counties.geojson", quiet = TRUE)
+
+county_dir <- read_csv(
+  "../data/ccpro_counties.csv",
+  col_types = cols(
+    geoid = col_character(),
+    county = col_character(),
+    college = col_character(),
+    region = col_character(),
+    primary = col_logical()
+  )
+)
+
+regions <- read_csv(
+  "../data/ccpro_regions.csv",
+  col_types = cols(.default = col_character())
+)
+```
+
+```{r}
+#| label: validate
+# Fail the build loudly rather than shipping a map with gray holes in it.
+
+missing_counties <- setdiff(counties_sf$geoid, county_dir$geoid)
+if (length(missing_counties) > 0) {
+  stop(
+    "No directory entry for GEOID(s): ",
+    paste(missing_counties, collapse = ", ")
+  )
+}
+
+orphan_geoids <- setdiff(county_dir$geoid, counties_sf$geoid)
+if (length(orphan_geoids) > 0) {
+  stop(
+    "Directory has GEOID(s) not present in NC geometry: ",
+    paste(orphan_geoids, collapse = ", ")
+  )
+}
+
+orphan_regions <- setdiff(county_dir$region, regions$region)
+if (length(orphan_regions) > 0) {
+  stop(
+    "Region(s) in ccpro_counties.csv missing from ccpro_regions.csv: ",
+    paste(orphan_regions, collapse = ", ")
+  )
+}
+
+# Exactly one primary college per county drives the fill color.
+primary_counts <- county_dir |>
+  filter(primary) |>
+  count(geoid) |>
+  filter(n != 1)
+
+if (nrow(primary_counts) > 0) {
+  stop(
+    "Each county needs exactly one row with primary = TRUE. Offenders: ",
+    paste(primary_counts$geoid, collapse = ", ")
+  )
+}
+```
+
+```{r}
+#| label: assemble
+
+# One row per county: the primary college sets the region and therefore the fill.
+fill_assignment <- county_dir |>
+  filter(primary) |>
+  select(geoid, region)
+
+# All colleges serving a county, collapsed for display. Handles the shared
+# service areas without forcing them into a single-college model.
+college_rollup <- county_dir |>
+  arrange(geoid, desc(primary), college) |>
+  group_by(geoid) |>
+  summarise(
+    colleges = paste(unique(college), collapse = "<br>"),
+    colleges_txt = paste(unique(college), collapse = "; "),
+    n_colleges = n_distinct(college),
+    .groups = "drop"
+  )
+
+map_data <- counties_sf |>
+  left_join(fill_assignment, by = "geoid") |>
+  left_join(college_rollup, by = "geoid") |>
+  left_join(regions, by = "region")
+
+# Named vectors serialize to a JSON *object*, which leaflet cannot index
+# per feature -- colorFactor hands back a plain unnamed character vector.
+region_pal <- colorFactor(
+  palette = regions$color,
+  levels = regions$region
+)
+```
+
+```{r}
+#| label: labels
+
+# Hover: the quick answer.
+hover_labels <- sprintf(
+  "<div style='font-size:13px;line-height:1.4;'>
+     <strong style='font-size:14px;'>%s County</strong><br>
+     %s<br>
+     <span style='color:#666;'>%s</span>
+   </div>",
+  htmlEscape(map_data$county),
+  map_data$colleges, # already HTML (<br> separated), do not escape
+  htmlEscape(map_data$region_label)
+) |>
+  lapply(HTML)
+
+# Click: the full contact block.
+director_line <- ifelse(
+  is.na(map_data$director_name) | map_data$director_name == "",
+  "<em>Region director TBD</em>",
+  sprintf(
+    "<strong>%s</strong><br>%s<br>%s%s",
+    htmlEscape(map_data$director_name),
+    htmlEscape(map_data$director_title),
+    htmlEscape(map_data$director_institution),
+    ifelse(
+      is.na(map_data$director_email) | map_data$director_email == "",
+      "",
+      sprintf(
+        "<br><a href='mailto:%s'>%s</a>",
+        map_data$director_email,
+        htmlEscape(map_data$director_email)
+      )
+    )
+  )
+)
+
+click_popups <- sprintf(
+  "<div style='font-size:13px;line-height:1.5;min-width:220px;'>
+     <strong style='font-size:15px;'>%s County</strong><br>
+     <span style='color:#666;'>%s</span>
+     <hr style='margin:6px 0;'>
+     <strong>%s</strong><br>%s
+     <hr style='margin:6px 0;'>
+     %s
+   </div>",
+  htmlEscape(map_data$county),
+  htmlEscape(map_data$region_label),
+  ifelse(map_data$n_colleges > 1, "Serving colleges", "Serving college"),
+  map_data$colleges,
+  director_line
+)
+```
+
+```{r}
+#| label: region-outlines
+
+# Dissolve counties into region polygons for a heavier boundary stroke.
+# Makes the regional structure readable without squinting at fill colors.
+region_outlines <- map_data |>
+  group_by(region) |>
+  summarise(.groups = "drop") |>
+  st_make_valid()
+```
+
+```{r}
+#| label: map
+#| column: page
+
+bb <- st_bbox(map_data)
+
+leaflet(
+  map_data,
+  options = leafletOptions(minZoom = 6, maxZoom = 10)
+) |>
+  addProviderTiles(providers$CartoDB.PositronNoLabels) |>
+  addPolygons(
+    fillColor = ~ region_pal(region),
+    fillOpacity = 0.75,
+    color = "#ffffff",
+    weight = 0.6,
+    opacity = 1,
+    label = hover_labels,
+    labelOptions = labelOptions(
+      textsize = "13px",
+      direction = "auto",
+      sticky = TRUE,
+      style = list(
+        "box-shadow" = "0 1px 4px rgba(0,0,0,0.25)",
+        "border-color" = "rgba(0,0,0,0.15)",
+        "padding" = "8px 10px"
+      )
+    ),
+    popup = click_popups,
+    highlightOptions = highlightOptions(
+      weight = 2.5,
+      color = "#222222",
+      fillOpacity = 0.9,
+      bringToFront = TRUE
+    ),
+    group = "Counties"
+  ) |>
+  addPolygons(
+    data = region_outlines,
+    fill = FALSE,
+    color = "#2b2b2b",
+    weight = 2.2,
+    opacity = 0.9,
+    options = pathOptions(interactive = FALSE), # never steals a hover
+    group = "Region boundaries"
+  ) |>
+  addProviderTiles(
+    providers$CartoDB.PositronOnlyLabels,
+    options = providerTileOptions(pane = "shadowPane")
+  ) |>
+  addLegend(
+    position = "bottomright",
+    colors = region_pal(regions$region),
+    labels = regions$region_label,
+    title = "CCPRO Region",
+    opacity = 0.85
+  ) |>
+  addLayersControl(
+    overlayGroups = c("Region boundaries"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) |>
+  fitBounds(bb[["xmin"]], bb[["ymin"]], bb[["xmax"]], bb[["ymax"]])
+```
+
+
+:::{.callout-note}
+  
+Hover over a county for its serving college and region. Click on the county to view it's region director.
+
 :::
 
-:::: {.columns}
 
-::: {.column width="33.33%"}
-Western Region
+<!-- ## Directory
 
-Western Region Director: [Kaitlin Pierce](mailto:KaitlinLPierce@abtech.edu) 
+```{r}
+#| label: table
 
-![](../images/western_region.png){fig-align="center" width="100%"}
+table_data <- map_data |>
+  st_drop_geometry() |>
+  transmute(
+    County = county,
+    College = colleges_txt,
+    Region = region_label,
+    Director = ifelse(
+      is.na(director_name) | director_name == "",
+      "TBD",
+      director_name
+    ),
+    Institution = director_institution,
+    Email = ifelse(
+      is.na(director_email) | director_email == "",
+      "",
+      sprintf("<a href='mailto:%s'>%s</a>", director_email, director_email)
+    )
+  ) |>
+  arrange(County)
 
-- Asheville-Buncombe Tech Community College
-- Blue Ridge Community College
-- Caldwell Community College & Tech. Inst.
-- Catawba Valley Community College
-- Cleveland Community College
-- Davidson-Davie Community College
-- Gaston Community College
-- Haywood Community College
-- Isothermal Community College
-- Mayland Community College
-- McDowell Technical Community College
-- Mitchell Community College
-- Rowan-Cabarrus Community College
-- Southwestern Community College
-- Surry Community College
-- Tri-County Community College
-- Western Piedmont Community College
-- Wilkes Community College
-:::
-
-::: {.column width="33.33%"}
-Central Region
-
-Central Region Director: [Dr. Cindy Dean](mailto:cdean5600@stanly.edu)
-
-![](../images/central-region.png){fig-align="center" width="100%"}
-
-- Alamance Community College
-- Bladen Community College
-- Central Carolina Community College
-- Central Piedmont Community College
-- Durham Technical Community College
-- Fayetteville Technical Community College
-- Forsyth Technical Community College
-- Guilford Technical Community College
-- Johnston Community College
-- Mountgomery Community College
-- Piedmont Community College
-- Randolph Community College
-- Richmond Community College
-- Robeson Community College
-- Rockingham Community College
-- Sandhills Community College
-- South Piedmont Community College
-- Stanly Community College
-- Vance-Granville Community College
-- Wake Technical Community College
-:::
-
-::: {.column width="33.34%"}
-Eastern Region
-
-Eastern Region Director: [Dr. Kimberly Mullis](mailto:kimberly.mullis@beaufortccc.edu)
-
-![](../images/eastern-region.png){fig-align="center" width="100%"}
-
-- Beaufort County Community College
-- Brunswick Community College
-- Cape Fear Community College
-- Carteret Community College
-- College of the Albemarle
-- College of the Albemarle
-- Craven Community College
-- Edgecombe Community College
-- Halifax Community College
-- James Sprunt Community College
-- Lenoir Community College
-- Martin Community College
-- Nash Community College
-- Pamlico Community College
-- Pitt Community College
-- Roanoke-Chowan Community College
-- Sampson Community College
-- Southeastern Community College
-- Wayne Community College
-- Wilson Community College
-:::
-
-::::
+datatable(
+  table_data,
+  escape = FALSE,
+  rownames = FALSE,
+  filter = "top",
+  options = list(
+    pageLength = 15,
+    autoWidth = TRUE,
+    dom = "ftip"
+  ),
+  caption = "Searchable listing of the same data shown on the map."
+)
+``` -->

@@ -219,9 +219,9 @@
   {
     "objectID": "pages/regions.html",
     "href": "pages/regions.html",
-    "title": "Regions",
+    "title": "CCPRO Regional Map",
     "section": "",
-    "text": "Our three regions create collaborative communities to help bring your ideas to life. Each region has a representative on the Executive Committee as listed below along with the colleges in each region:"
+    "text": "Our three regions create collaborative communities to help bring your ideas to life. Each region has a representative on the Executive Committee as listed below along with the colleges in each region:\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nHover over a county for its serving college and region. Click on the county to view it’s region director."
   },
   {
     "objectID": "pages/executive-committee.html",
@@ -247,7 +247,7 @@
   {
     "objectID": "pages/regions.html#our-regions",
     "href": "pages/regions.html#our-regions",
-    "title": "Regions",
+    "title": "CCPRO Regional Map",
     "section": "",
     "text": "Our three regions create collaborative communities to help bring your ideas to life. Each region has a representative on the Executive Committee as listed below along with the colleges in each region:"
   },
@@ -306,5 +306,33 @@
     "title": "Conferences & Meetings",
     "section": "Photos from Past Conferences and Meetings",
     "text": "Photos from Past Conferences and Meetings\n\n\n\n\n\n\nNoteCCPRO Attends the SACSCOC Summer Institute in Atlanta Georgia\n\n\n\n\n\nMany of the CCPRO and NCCCS Accreditation, IR, and IE professionals attended the SACSCOC Summer Institute in Atlanta. Some were even on the program including Dr. Kimberly Mullis from Beaufort CCC and Dr. Greg Thomas (Non-CCPRO Member) and Leeann Cline-Burrris of Isothermal CC. Both presented on Student Success and represented NCCCS and CCPRO well. Many members also attended Braves games across several days and a big share of the group shared a memorable dinner at Max Lager’s Wood-Fired Grill & Brewery. See the few pictures we took together below. If you attended and have pictures, please share them with our Webmaster!\n\n\n\nDinner at Max Lager’s: Colleges Represented - Wilson CC, Craven CC, Haywood CC, Johnston CC, Beaufort CCC, and Others\n\n\n\n\n\nMany folks went to the Braves Game including CCPRO President, President-Elect/Webmaster, and Eastern Region Director pictured here! (The Braves were 2 to 1 when CCPRO members attended their games…)\n\n\n\n\n\nGo Braves\n\n\n\n\n\n\n\n\n\n\n\nNote2026 Joint Conference - HCC\n\n\n\n\n\n\n\n\nAttendees representing Haywood CC, Cleveland CC, Pitt CC, Isothermal CC, McDowell Tech, and A-B Tech\n\n\n\n\n\nWelcome Sign CCPRO at HCC gate\n\n\n\n\n\n\n\n\n\n\n\nNote2026 Joint Conference - JCC"
+  },
+  {
+    "objectID": "pages/region-map.html",
+    "href": "pages/region-map.html",
+    "title": "CCPRO Regional Map",
+    "section": "",
+    "text": "Deleting source `data/nc_counties.geojson' using driver `GeoJSON'\nWriting layer `nc_counties' to data source \n  `data/nc_counties.geojson' using driver `GeoJSON'\nWriting 100 features with 2 fields and geometry type Unknown (any).\n\n\n\n\n\n\n\n\nHover a county for its serving college and region; click for region director contact information."
+  },
+  {
+    "objectID": "pages/region-map.html#directory",
+    "href": "pages/region-map.html#directory",
+    "title": "CCPRO Regional Map",
+    "section": "Directory",
+    "text": "Directory"
+  },
+  {
+    "objectID": "pages/regions.html#directory",
+    "href": "pages/regions.html#directory",
+    "title": "CCPRO Regional Map",
+    "section": "Directory",
+    "text": "Directory"
+  },
+  {
+    "objectID": "pages/regions.html#about-our-regions",
+    "href": "pages/regions.html#about-our-regions",
+    "title": "CCPRO Regional Map",
+    "section": "",
+    "text": "Our three regions create collaborative communities to help bring your ideas to life. Each region has a representative on the Executive Committee as listed below along with the colleges in each region:\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nHover over a county for its serving college and region. Click on the county to view it’s region director."
   }
 ]

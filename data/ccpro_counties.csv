@@ -1,0 +1,103 @@
+geoid,county,college,region,primary
+37001,Alamance,Alamance Community College,Central,TRUE
+37003,Alexander,Catawba Valley Community College,West,TRUE
+37005,Alleghany,Wilkes Community College,West,TRUE
+37007,Anson,South Piedmont Community College,Central,TRUE
+37009,Ashe,Wilkes Community College,West,TRUE
+37011,Avery,Mayland Community College,West,TRUE
+37013,Beaufort,Beaufort County Community College,East,TRUE
+37015,Bertie,Martin Community College,East,TRUE
+37015,Bertie,Roanoke-Chowan Community College,East,FALSE
+37017,Bladen,Bladen Community College,Central,TRUE
+37019,Brunswick,Brunswick Community College,East,TRUE
+37021,Buncombe,Asheville-Buncombe Technical Community College,West,TRUE
+37023,Burke,Western Piedmont Community College,West,TRUE
+37025,Cabarrus,Rowan-Cabarrus Community College,West,TRUE
+37027,Caldwell,Caldwell Community College & Technical Institute,West,TRUE
+37029,Camden,College of The Albemarle,East,TRUE
+37031,Carteret,Carteret Community College,East,TRUE
+37033,Caswell,Piedmont Community College,Central,TRUE
+37035,Catawba,Catawba Valley Community College,West,TRUE
+37037,Chatham,Central Carolina Community College,Central,TRUE
+37039,Cherokee,Tri-County Community College,West,TRUE
+37041,Chowan,College of The Albemarle,East,TRUE
+37043,Clay,Tri-County Community College,West,TRUE
+37045,Cleveland,Cleveland Community College,West,TRUE
+37047,Columbus,Southeastern Community College,East,TRUE
+37049,Craven,Craven Community College,East,TRUE
+37051,Cumberland,Fayetteville Technical Community College,Central,TRUE
+37053,Currituck,College of The Albemarle,East,TRUE
+37055,Dare,College of The Albemarle,East,TRUE
+37057,Davidson,Davidson-Davie Community College,West,TRUE
+37059,Davie,Davidson-Davie Community College,West,TRUE
+37061,Duplin,James Sprunt Community College,East,TRUE
+37063,Durham,Durham Technical Community College,Central,TRUE
+37065,Edgecombe,Edgecombe Community College,East,TRUE
+37067,Forsyth,Forsyth Technical Community College,Central,TRUE
+37069,Franklin,Vance-Granville Community College,Central,TRUE
+37071,Gaston,Gaston College,West,TRUE
+37073,Gates,College of The Albemarle,East,TRUE
+37075,Graham,Tri-County Community College,West,TRUE
+37077,Granville,Vance-Granville Community College,Central,TRUE
+37079,Greene,Lenoir Community College,East,TRUE
+37081,Guilford,Guilford Technical Community College,Central,TRUE
+37083,Halifax,Halifax Community College,East,TRUE
+37085,Harnett,Central Carolina Community College,Central,TRUE
+37087,Haywood,Haywood Community College,West,TRUE
+37089,Henderson,Blue Ridge Community College,West,TRUE
+37091,Hertford,Roanoke-Chowan Community College,East,TRUE
+37093,Hoke,Sandhills Community College,Central,TRUE
+37095,Hyde,Beaufort County Community College,East,TRUE
+37097,Iredell,Mitchell Community College,West,TRUE
+37099,Jackson,Southwestern Community College,West,TRUE
+37101,Johnston,Johnston Community College,Central,TRUE
+37103,Jones,Lenoir Community College,East,TRUE
+37105,Lee,Central Carolina Community College,Central,TRUE
+37107,Lenoir,Lenoir Community College,East,TRUE
+37109,Lincoln,Gaston College,West,TRUE
+37111,McDowell,McDowell Technical Community College,West,TRUE
+37113,Macon,Southwestern Community College,West,TRUE
+37115,Madison,Asheville-Buncombe Technical Community College,West,TRUE
+37117,Martin,Martin Community College,East,TRUE
+37119,Mecklenburg,Central Piedmont Community College,Central,TRUE
+37121,Mitchell,Mayland Community College,West,TRUE
+37123,Montgomery,Montgomery Community College,Central,TRUE
+37125,Moore,Sandhills Community College,Central,TRUE
+37127,Nash,Nash Community College,East,TRUE
+37129,New Hanover,Cape Fear Community College,East,TRUE
+37131,Northampton,Halifax Community College,East,TRUE
+37131,Northampton,Roanoke-Chowan Community College,East,FALSE
+37133,Onslow,Coastal Carolina Community College,East,TRUE
+37135,Orange,Durham Technical Community College,Central,TRUE
+37137,Pamlico,Pamlico Community College,East,TRUE
+37139,Pasquotank,College of The Albemarle,East,TRUE
+37141,Pender,Cape Fear Community College,East,TRUE
+37143,Perquimans,College of The Albemarle,East,TRUE
+37145,Person,Piedmont Community College,Central,TRUE
+37147,Pitt,Pitt Community College,East,TRUE
+37149,Polk,Isothermal Community College,West,TRUE
+37151,Randolph,Randolph Community College,Central,TRUE
+37153,Richmond,Richmond Community College,Central,TRUE
+37155,Robeson,Robeson Community College,Central,TRUE
+37157,Rockingham,Rockingham Community College,Central,TRUE
+37159,Rowan,Rowan-Cabarrus Community College,West,TRUE
+37161,Rutherford,Isothermal Community College,West,TRUE
+37163,Sampson,Sampson Community College,East,TRUE
+37165,Scotland,Richmond Community College,Central,TRUE
+37167,Stanly,Stanly Community College,Central,TRUE
+37169,Stokes,Forsyth Technical Community College,Central,TRUE
+37171,Surry,Surry Community College,West,TRUE
+37173,Swain,Southwestern Community College,West,TRUE
+37175,Transylvania,Blue Ridge Community College,West,TRUE
+37177,Tyrrell,Beaufort County Community College,East,TRUE
+37179,Union,South Piedmont Community College,Central,TRUE
+37181,Vance,Vance-Granville Community College,Central,TRUE
+37183,Wake,Wake Technical Community College,Central,TRUE
+37185,Warren,Vance-Granville Community College,Central,TRUE
+37187,Washington,Beaufort County Community College,East,TRUE
+37189,Watauga,Caldwell Community College & Technical Institute,West,TRUE
+37191,Wayne,Wayne Community College,East,TRUE
+37193,Wilkes,Wilkes Community College,West,TRUE
+37195,Wilson,Wilson Community College,East,TRUE
+37197,Yadkin,Surry Community College,West,TRUE
+37199,Yancey,Mayland Community College,West,TRUE

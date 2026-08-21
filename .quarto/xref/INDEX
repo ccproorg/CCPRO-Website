@@ -58,5 +58,8 @@
   },
   "pages/membership-form.qmd": {
     "membership-form.html": "c08e4a8f"
+  },
+  "pages/region-map.qmd": {
+    "region-map.html": "fcff1200"
   }
 }
