@@ -25,7 +25,7 @@ library(readxl) # Load readxl for reading Excel files
 
 
 new_members <- read_excel(
-  "../documents/CCPRO_Membership_Database_2026-09-19.xlsx",
+  "../documents/CCPRO_Membership_Database_2026-09-18.xlsx",
   sheet = "New Membership"
 ) |> # Read in the directory from Excel: CCPRO_Membership_Database_YYYY_MM_DD.xlsx
   mutate(
