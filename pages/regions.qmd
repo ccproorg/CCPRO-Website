@@ -195,7 +195,6 @@ leaflet(
   map_data,
   options = leafletOptions(minZoom = 6, maxZoom = 10)
 ) |>
-  addProviderTiles(providers$CartoDB.PositronNoLabels) |>
   addPolygons(
     fillColor = ~ region_pal(region),
     fillOpacity = 0.75,
@@ -231,10 +230,6 @@ leaflet(
     options = pathOptions(interactive = FALSE), # never steals a hover
     group = "Region boundaries"
   ) |>
-  addProviderTiles(
-    providers$CartoDB.PositronOnlyLabels,
-    options = providerTileOptions(pane = "shadowPane")
-  ) |>
   addLegend(
     position = "bottomright",
     colors = region_pal(regions$region),
@@ -246,6 +241,7 @@ leaflet(
     overlayGroups = c("Region boundaries"),
     options = layersControlOptions(collapsed = FALSE)
   ) |>
+  hideGroup("Region boundaries") |>
   fitBounds(bb[["xmin"]], bb[["ymin"]], bb[["xmax"]], bb[["ymax"]])
 ```
 
