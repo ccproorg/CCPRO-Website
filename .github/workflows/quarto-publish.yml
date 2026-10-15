@@ -33,7 +33,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          install.packages(c("rmarkdown", "knitr", "dplyr", "stringr", "DT", "readxl"))
+          install.packages(c("rmarkdown","knitr","dplyr","stringr","DT","readxl","sf","readr","leaflet","htmltools"))
         shell: Rscript {0}
 
       - name: Publish to Netlify (and render)
