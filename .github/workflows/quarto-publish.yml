@@ -35,6 +35,15 @@ jobs:
         run: |
           install.packages(c("rmarkdown","knitr","dplyr","stringr","DT","readxl","sf","readr","leaflet","htmltools"))
         shell: Rscript {0}
+      - name: Install spatial system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libudunits2-dev \
+            libgdal-dev \
+            libgeos-dev \
+            libproj-dev \
+            libsqlite3-dev
 
       - name: Publish to Netlify (and render)
         uses: quarto-dev/quarto-actions/publish@v2
